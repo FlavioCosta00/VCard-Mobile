@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "366992456665",
+    "firebase_url": "https://taes-2023-group-ff-default-rtdb.firebaseio.com",
+    "project_id": "taes-2023-group-ff",
+    "storage_bucket": "taes-2023-group-ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366992456665:android:bf5ea40d4b8449ccb2f7c8",
+        "android_client_info": {
+          "package_name": "com.example.projetotaes2324"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPCGRNkfy1qxHUf4eCcHyKOcgUtqdZiF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366992456665:android:bdaddf57c7d67245b2f7c8",
+        "android_client_info": {
+          "package_name": "com.projetotaes2324"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPCGRNkfy1qxHUf4eCcHyKOcgUtqdZiF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366992456665:android:a2da9195659c7851b2f7c8",
+        "android_client_info": {
+          "package_name": "com.vcardmobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPCGRNkfy1qxHUf4eCcHyKOcgUtqdZiF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

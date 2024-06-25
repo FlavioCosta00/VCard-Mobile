@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuit2,,,,2023-12-04 22:03:17,2023-12-04 22:08:43,5m - 25.899s,PASSED
+,,,,,,,
+Test Cases/US12-LastTransactionOnDashboard/DashboardLastTransactionTests,,,,2023-12-04 22:03:17,2023-12-04 22:04:07,49.472s,PASSED
+"runFeatureFile(""Include/features/US12-LastTransactionOnDashboard/LastTransactionDashboard.feature"")",,,,2023-12-04 22:03:18,2023-12-04 22:04:07,49.209s,PASSED
+,,,,,,,
+Test Cases/US10 - Send Money to vCard/SendMoneyTests,,,,2023-12-04 22:04:07,2023-12-04 22:06:46,2m - 39.528s,PASSED
+"runFeatureFile(""Include/features/US10-Send Money to vCard/SendMoneyToVCard.feature"")",,,,2023-12-04 22:04:07,2023-12-04 22:06:46,2m - 39.307s,PASSED
+,,,,,,,
+Test Cases/US11 - Transactions Page/ListofTransactionsTests,,,,2023-12-04 22:06:46,2023-12-04 22:07:05,18.962s,PASSED
+"runFeatureFile(""Include/features/US11-ListOfTransactions/ListOfTransactions.feature"")",,,,2023-12-04 22:06:47,2023-12-04 22:07:05,18.726s,PASSED
+,,,,,,,
+Test Cases/US13-Transactions filter by type/ListOfTransactionsFilterByTests,,,,2023-12-04 22:07:05,2023-12-04 22:08:11,1m - 5.244s,PASSED
+"runFeatureFile(""Include/features/US13-TransactionsFilterByType/TransactionsFilterByType.feature"")",,,,2023-12-04 22:07:06,2023-12-04 22:08:11,1m - 5.029s,PASSED
+,,,,,,,
+Test Cases/US14-Transactions filter between dates/ListOfTransactionsBetweenDateTests,,,,2023-12-04 22:08:11,2023-12-04 22:08:43,32.458s,PASSED
+"runFeatureFile(""Include/features/US14-TransactionsFilterBetweenDate/TransactionsFilterBetweenDate.feature"")",,,,2023-12-04 22:08:11,2023-12-04 22:08:43,32.176s,PASSED

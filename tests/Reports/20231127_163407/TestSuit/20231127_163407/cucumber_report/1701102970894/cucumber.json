@@ -1,0 +1,183 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Check piggy bank balance is present",
+        "description": "",
+        "id": "vcard-user-see-piggy-bank-balance;check-piggy-bank-balance-is-present",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9053667700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I start the application",
+            "match": {
+              "location": "US1.i_start_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 554100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I have a vCard",
+            "match": {
+              "location": "US3.i_have_a_vCard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1444074100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I insert my \"pin code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pin code\"",
+                  "offset": 12
+                }
+              ],
+              "location": "US1.i_insert_my(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 652285400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I tap  the \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 11
+                }
+              ],
+              "location": "US3.i_tap_the_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4539033700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I can see my “piggyBank” balance",
+            "match": {
+              "location": "US4.i_can_see_my_piggyBank_balance()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Check piggy bank balance is 0",
+        "description": "",
+        "id": "vcard-user-see-piggy-bank-balance;check-piggy-bank-balance-is-0",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9024634400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I start the application",
+            "match": {
+              "location": "US1.i_start_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 337400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I have a vCard",
+            "match": {
+              "location": "US3.i_have_a_vCard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1460062100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I insert my \"pin code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pin code\"",
+                  "offset": 12
+                }
+              ],
+              "location": "US1.i_insert_my(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 653194100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I tap  the \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 11
+                }
+              ],
+              "location": "US3.i_tap_the_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17530281800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I can see my piggy bank balance is \"0.00 €\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0.00 €\"",
+                  "offset": 35
+                }
+              ],
+              "location": "US4.i_can_see_my_piggy_bank_balance_is(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "vCard user see piggy bank balance",
+    "description": "As a vCard user\nI want to see my piggy bank balance\nSo i know my savings",
+    "id": "vcard-user-see-piggy-bank-balance",
+    "keyword": "Feature",
+    "uri": "C:/projetoTaes/tests/Include/features/US4 -CheckPiggyBankBalanceOnTheDashboard/US4-CheckPiggyBankBalanceOnTheDashBoard.feature",
+    "tags": []
+  }
+]

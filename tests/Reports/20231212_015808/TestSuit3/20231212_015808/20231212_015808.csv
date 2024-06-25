@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuit3,,,,2023-12-12 01:58:14,2023-12-12 02:01:35,3m - 21.332s,PASSED
+,,,,,,,
+Test Cases/US15-Sort list of Transactions/ListOfTransactionsSortByTests,,,,2023-12-12 01:58:14,2023-12-12 01:59:48,1m - 34.184s,PASSED
+"runFeatureFile(""Include/features/US15-SortListOfTransactions/SortListOfTransactions.feature"")",,,,2023-12-12 01:58:14,2023-12-12 01:59:48,1m - 33.888s,PASSED
+,,,,,,,
+Test Cases/US16-EnableDisableNotifications/EnableDisableNotificationsTests,,,,2023-12-12 01:59:48,2023-12-12 02:00:35,47.158s,PASSED
+"runFeatureFile(""Include/features/US16-EnableDisableNotifications/EnableDisableNotifications.feature"")",,,,2023-12-12 01:59:48,2023-12-12 02:00:35,46.819s,PASSED
+,,,,,,,
+Test Cases/US9-DeleteVCard/DeleteVCardTests,,,,2023-12-12 02:00:35,2023-12-12 02:01:35,59.749s,PASSED
+"runFeatureFile(""Include/features/US9-DeleteVCard/DeleteVCard.feature"")",,,,2023-12-12 02:00:36,2023-12-12 02:01:35,59.229s,PASSED

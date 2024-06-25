@@ -1,0 +1,195 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "41ba848e-2462-4158-bbbd-bfc276b0cea4",
+        "line": 7,
+        "name": "Check piggy bank balance is present",
+        "description": "",
+        "id": "vcard-user-see-piggy-bank-balance;check-piggy-bank-balance-is-present",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9053667700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I start the application",
+            "match": {
+              "location": "US1.i_start_the_application()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "7b7439ad-271d-438d-9717-7d6cb1e6ef22"
+          },
+          {
+            "result": {
+              "duration": 554100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I have a vCard",
+            "match": {
+              "location": "US3.i_have_a_vCard()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "f225e3e5-b788-44d0-9ee1-a4d572cdee85"
+          },
+          {
+            "result": {
+              "duration": 1444074100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I insert my \"pin code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pin code\"",
+                  "offset": 12
+                }
+              ],
+              "location": "US1.i_insert_my(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "a34321d2-a134-4419-b0a8-4f386471f756"
+          },
+          {
+            "result": {
+              "duration": 652285400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I tap  the \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 11
+                }
+              ],
+              "location": "US3.i_tap_the_button(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "16cb0897-4020-4547-9a0e-10040923b7da"
+          },
+          {
+            "result": {
+              "duration": 4539033700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I can see my “piggyBank” balance",
+            "match": {
+              "location": "US4.i_can_see_my_piggyBank_balance()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "1c4a0e99-b798-4c30-950f-3a1f234bcc56"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "2b4952c0-90f7-4721-a1f6-43b35081cd3f",
+        "line": 14,
+        "name": "Check piggy bank balance is 0",
+        "description": "",
+        "id": "vcard-user-see-piggy-bank-balance;check-piggy-bank-balance-is-0",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9024634400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I start the application",
+            "match": {
+              "location": "US1.i_start_the_application()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "8c709653-e301-481a-89cc-255ec056f3ae"
+          },
+          {
+            "result": {
+              "duration": 337400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I have a vCard",
+            "match": {
+              "location": "US3.i_have_a_vCard()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "abf7ecd2-9c07-4da7-abc6-7fa3885af5b6"
+          },
+          {
+            "result": {
+              "duration": 1460062100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I insert my \"pin code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pin code\"",
+                  "offset": 12
+                }
+              ],
+              "location": "US1.i_insert_my(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "4687f65b-d6b7-424b-9601-ee18bef939a9"
+          },
+          {
+            "result": {
+              "duration": 653194100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I tap  the \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 11
+                }
+              ],
+              "location": "US3.i_tap_the_button(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "d7c268af-4ac0-4134-8452-71ed55deaf37"
+          },
+          {
+            "result": {
+              "duration": 17530281800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I can see my piggy bank balance is \"0.00 €\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0.00 €\"",
+                  "offset": 35
+                }
+              ],
+              "location": "US4.i_can_see_my_piggy_bank_balance_is(String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "9186813d-8f9f-4a00-a854-1990a4384a8c"
+          }
+        ]
+      }
+    ],
+    "name": "vCard user see piggy bank balance",
+    "description": "As a vCard user\nI want to see my piggy bank balance\nSo i know my savings",
+    "id": "vcard-user-see-piggy-bank-balance",
+    "keyword": "Feature",
+    "uri": "C:/projetoTaes/tests/Include/features/US4 -CheckPiggyBankBalanceOnTheDashboard/US4-CheckPiggyBankBalanceOnTheDashBoard.feature",
+    "tags": []
+  }
+]

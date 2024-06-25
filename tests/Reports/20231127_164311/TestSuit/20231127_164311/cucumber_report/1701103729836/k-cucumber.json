@@ -1,0 +1,271 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "1f51f4ad-507f-44b2-bba6-76d8791690dc",
+        "line": 6,
+        "name": "Delete my vCard Invalid",
+        "description": "",
+        "id": "delete-vcard;delete-my-vcard-invalid",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9290784500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I start the application",
+            "match": {
+              "location": "US1.i_start_the_application()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "c42092d9-ce32-4474-8bb1-a0e07df2f58a"
+          },
+          {
+            "result": {
+              "duration": 816200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have a vCard",
+            "match": {
+              "location": "US3.i_have_a_vCard()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "ae5de141-9bdc-425c-bd65-68cc86069bd9"
+          },
+          {
+            "result": {
+              "duration": 1370207000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I insert my \"pin code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pin code\"",
+                  "offset": 12
+                }
+              ],
+              "location": "US1.i_insert_my(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "9616b0a3-bb3d-467a-9e88-40d1ea6b75ee"
+          },
+          {
+            "result": {
+              "duration": 650864300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I tap the  \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 11
+                }
+              ],
+              "location": "US5.i_tap__the_button(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "b9b63eae-e7fc-4cb7-9f98-0e1e2c5231e9"
+          },
+          {
+            "result": {
+              "duration": 2348903100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify that my balance is not 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 32
+                }
+              ],
+              "location": "US9.i_verify_that_my_balance_is(Integer)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "0c64fc73-c1db-424d-8fd4-d883b37593d5"
+          },
+          {
+            "result": {
+              "duration": 16876607800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I can see a message “Balance \u003e 0.00 Delete Card Disabled”",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0.00",
+                  "offset": 31
+                }
+              ],
+              "location": "US9.i_can_see_my_a_message_Balance_Delete_Card_Disabled(Double)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "a8e5a0c3-2e68-4218-8620-edb0aac2af6f"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "89fb90d0-3770-4c5d-baa2-0ac755d59f95",
+        "line": 14,
+        "name": "Delete my vCard valid",
+        "description": "",
+        "id": "delete-vcard;delete-my-vcard-valid",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10099837700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I start the application",
+            "match": {
+              "location": "US1.i_start_the_application()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "49534aef-fa2e-4d1c-8f86-736208c03ec6"
+          },
+          {
+            "result": {
+              "duration": 230300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I have a vCard",
+            "match": {
+              "location": "US3.i_have_a_vCard()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "2793203c-7f3b-4566-a683-ae1688f38dcd"
+          },
+          {
+            "result": {
+              "duration": 1516372100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I insert my \"pin code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pin code\"",
+                  "offset": 12
+                }
+              ],
+              "location": "US1.i_insert_my(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "56ee5240-9f75-4c7f-8029-0efe14223b14"
+          },
+          {
+            "result": {
+              "duration": 648278200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I tap the  \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 11
+                }
+              ],
+              "location": "US5.i_tap__the_button(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "3334ca3d-05d1-4195-9cc9-bbd2c0626437"
+          },
+          {
+            "result": {
+              "duration": 2314234200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I verify that my balance is bigger than 0.00",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0.00",
+                  "offset": 40
+                }
+              ],
+              "location": "US9.i_verify_that_my_balance_is_bigger_than(Double)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "16b3f5f4-381b-47ca-8e42-74c6a0489623"
+          },
+          {
+            "result": {
+              "duration": 2191291100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I tap on   \"Delete\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Delete\"",
+                  "offset": 11
+                }
+              ],
+              "location": "US9.i_tap_on_button(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "3013b2ce-5cf6-446d-8f78-6d1e7702e665"
+          },
+          {
+            "result": {
+              "duration": 1235227100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I insert my   \"pin code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pin code\"",
+                  "offset": 14
+                }
+              ],
+              "location": "US9.i_insert_my(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "6a390737-3b6e-466c-a7a9-2484b479867d"
+          },
+          {
+            "result": {
+              "duration": 2823812700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I can delete my VCard",
+            "match": {
+              "location": "US9.i_can_delete_my_VCard()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "90bae8f7-7670-45a1-9032-5607af2f1b76"
+          }
+        ]
+      }
+    ],
+    "name": "Delete vCard",
+    "description": "As a user\nI want to tap on Delete vCard button\nSo I can delete my vCard",
+    "id": "delete-vcard",
+    "keyword": "Feature",
+    "uri": "C:/projetoTaes/tests/Include/features/US9-DeleteVCard/US9-DeleteVCard.feature",
+    "tags": []
+  }
+]

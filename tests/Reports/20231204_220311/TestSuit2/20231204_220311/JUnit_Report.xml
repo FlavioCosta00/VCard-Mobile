@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuit2" time="325.899" tests="5" failures="0" errors="0">
+   <testsuite name="TestSuit2" tests="5" failures="0" errors="0" time="325.899" skipped="0" timestamp="2023-12-04 22:03:17" hostname="diogo - DESKTOP-VK0O6AA" id="Test Suites/TestSuit2">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 14)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="S:\\TAES\\Projeto\\tests\\Reports\\20231204_220311\\TestSuit2\\20231204_220311"/>
+         <property name="logFiles" value="S:\\TAES\\Projeto\\tests\\Reports\\20231204_220311\\TestSuit2\\20231204_220311\\appium.log, S:\\TAES\\Projeto\\tests\\Reports\\20231204_220311\\TestSuit2\\20231204_220311\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="diogo - DESKTOP-VK0O6AA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="sdk_gphone64_x86_64"/>
+         <property name="hostAddress" value="172.22.205.28"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 14)"/>
+         <property name="deviceOSVersion" value="14"/>
+      </properties>
+      <testcase name="Test Cases/US12-LastTransactionOnDashboard/DashboardLastTransactionTests" time="49.472" classname="Test Cases/US12-LastTransactionOnDashboard/DashboardLastTransactionTests" status="PASSED">
+         <system-out><![CDATA[2023-12-04 22:03:17 - [TEST_CASE][PASSED] - Test Cases/US12-LastTransactionOnDashboard/DashboardLastTransactionTests: Test Cases/US12-LastTransactionOnDashboard/DashboardLastTransactionTests
+
+2023-12-04 22:03:18 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/US12-LastTransactionOnDashboard/LastTransactionDashboard.feature"): Feature file: 'Include/features/US12-LastTransactionOnDashboard/LastTransactionDashboard.feature' was passed
+
+2023-12-04 22:03:18 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/US12-LastTransactionOnDashboard/LastTransactionDashboard.feature' and extract report to folder: 'S:\TAES\Projeto\tests\Reports\20231204_220311\TestSuit2\20231204_220311/cucumber_report/1701727398206'...
+
+2023-12-04 22:03:18 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO See Last Transaction on Dashboard: SCENARIO See Last Transaction on Dashboard
+
+2023-12-04 22:03:18 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-12-04 22:03:19 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-12-04 22:03:20 - [MESSAGE][INFO] - Appium server started on port 63,354
+
+2023-12-04 22:03:29 - [MESSAGE][PASSED] - Started app at: 'S:\TAES\Projeto\tests\appForTest\app-release.apk'
+
+2023-12-04 22:03:29 - [MESSAGE][PASSED] - I start the application
+
+2023-12-04 22:03:29 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-12-04 22:03:29 - [MESSAGE][PASSED] - I have a vCard
+
+2023-12-04 22:03:29 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-12-04 22:03:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:03:31 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/codeConfirmation'
+
+2023-12-04 22:03:31 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-12-04 22:03:31 - [TEST_STEP][PASSED] - I tap the "Login" button: I tap the "Login" button
+
+2023-12-04 22:03:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:03:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Login'
+
+2023-12-04 22:03:32 - [MESSAGE][PASSED] - I tap the "Login" button
+
+2023-12-04 22:03:32 - [TEST_STEP][PASSED] - I can see I dont have a transaction: I can see I dont have a transaction
+
+2023-12-04 22:03:36 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-12-04 22:03:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:03:36 - [MESSAGE][PASSED] - Element 'Object Repository/dashboardNOTransactions' is exist
+
+2023-12-04 22:03:36 - [MESSAGE][PASSED] - Close app successfully
+
+2023-12-04 22:03:36 - [MESSAGE][PASSED] - I can see I dont have a transaction
+
+2023-12-04 22:03:36 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO See Last Transaction on Dashboard: SCENARIO See Last Transaction on Dashboard
+
+2023-12-04 22:03:36 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-12-04 22:03:36 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-12-04 22:03:38 - [MESSAGE][INFO] - Appium server started on port 63,459
+
+2023-12-04 22:03:46 - [MESSAGE][PASSED] - Started app at: 'S:\TAES\Projeto\tests\appForTest\app-release.apk'
+
+2023-12-04 22:03:46 - [MESSAGE][PASSED] - I start the application
+
+2023-12-04 22:03:46 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-12-04 22:03:46 - [MESSAGE][PASSED] - I have a vCard
+
+2023-12-04 22:03:46 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-12-04 22:03:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:03:48 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/codeConfirmation'
+
+2023-12-04 22:03:48 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-12-04 22:03:48 - [TEST_STEP][PASSED] - I tap the "Login" button: I tap the "Login" button
+
+2023-12-04 22:03:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:03:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Login'
+
+2023-12-04 22:03:48 - [MESSAGE][PASSED] - I tap the "Login" button
+
+2023-12-04 22:03:48 - [TEST_STEP][PASSED] - I create a transaction: I create a transaction
+
+2023-12-04 22:03:52 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-12-04 22:03:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:03:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-SendMoney'
+
+2023-12-04 22:03:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:03:55 - [MESSAGE][PASSED] - Text '910333444' has been set to element 'Object Repository/sendMoneyPhoneNumber'
+
+2023-12-04 22:03:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:03:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-SendMoneyDirectly'
+
+2023-12-04 22:03:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:03:58 - [MESSAGE][PASSED] - Text '0.5' has been set to element 'Object Repository/sendMoneyAmount'
+
+2023-12-04 22:03:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:03:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Send'
+
+2023-12-04 22:03:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:04:00 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/codeConfirmationDirectly'
+
+2023-12-04 22:04:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:04:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/buttonSendMoneyOk'
+
+2023-12-04 22:04:02 - [MESSAGE][PASSED] - I create a transaction
+
+2023-12-04 22:04:02 - [TEST_STEP][PASSED] - I can see my last transaction: I can see my last transaction
+
+2023-12-04 22:04:06 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-12-04 22:04:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:04:06 - [MESSAGE][PASSED] - Element 'Object Repository/lastTransactionArea' is exist
+
+2023-12-04 22:04:07 - [MESSAGE][PASSED] - Close app successfully
+
+2023-12-04 22:04:07 - [MESSAGE][PASSED] - I can see my last transaction
+
+2023-12-04 22:04:07 - [MESSAGE][PASSED] - Feature file: 'Include/features/US12-LastTransactionOnDashboard/LastTransactionDashboard.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/US10 - Send Money to vCard/SendMoneyTests" time="159.528" classname="Test Cases/US10 - Send Money to vCard/SendMoneyTests" status="PASSED">
+         <system-out><![CDATA[2023-12-04 22:04:07 - [TEST_CASE][PASSED] - Test Cases/US10 - Send Money to vCard/SendMoneyTests: Test Cases/US10 - Send Money to vCard/SendMoneyTests
+
+2023-12-04 22:04:07 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/US10-Send Money to vCard/SendMoneyToVCard.feature"): Feature file: 'Include/features/US10-Send Money to vCard/SendMoneyToVCard.feature' was passed
+
+2023-12-04 22:04:07 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/US10-Send Money to vCard/SendMoneyToVCard.feature' and extract report to folder: 'S:\TAES\Projeto\tests\Reports\20231204_220311\TestSuit2\20231204_220311/cucumber_report/1701727447600'...
+
+2023-12-04 22:04:07 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Send Money directly to a phone number Valid Situation: SCENARIO Send Money directly to a phone number Valid Situation
+
+2023-12-04 22:04:07 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-12-04 22:04:07 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-12-04 22:04:08 - [MESSAGE][INFO] - Appium server started on port 63,570
+
+2023-12-04 22:04:17 - [MESSAGE][PASSED] - Started app at: 'S:\TAES\Projeto\tests\appForTest\app-release.apk'
+
+2023-12-04 22:04:17 - [MESSAGE][PASSED] - I start the application
+
+2023-12-04 22:04:17 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-12-04 22:04:17 - [MESSAGE][PASSED] - I have a vCard
+
+2023-12-04 22:04:17 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-12-04 22:04:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:04:18 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/codeConfirmation'
+
+2023-12-04 22:04:18 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-12-04 22:04:18 - [TEST_STEP][PASSED] - I tap the "Login" button: I tap the "Login" button
+
+2023-12-04 22:04:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:04:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Login'
+
+2023-12-04 22:04:19 - [MESSAGE][PASSED] - I tap the "Login" button
+
+2023-12-04 22:04:19 - [TEST_STEP][PASSED] - I tap the "SendMoney" button: I tap the "SendMoney" button
+
+2023-12-04 22:04:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:04:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-SendMoney'
+
+2023-12-04 22:04:21 - [MESSAGE][PASSED] - I tap the "SendMoney" button
+
+2023-12-04 22:04:21 - [TEST_STEP][PASSED] - I insert a phone number in the "PhoneNumber" field: I insert a phone number in the "PhoneNumber" field
+
+2023-12-04 22:04:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:04:24 - [MESSAGE][PASSED] - Text '911000002' has been set to element 'Object Repository/sendMoneyPhoneNumber'
+
+2023-12-04 22:04:24 - [MESSAGE][PASSED] - I insert a phone number in the "PhoneNumber" field
+
+2023-12-04 22:04:24 - [TEST_STEP][PASSED] - I tap the "SendMoneyDirectly" button: I tap the "SendMoneyDirectly" button
+
+2023-12-04 22:04:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:04:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-SendMoneyDirectly'
+
+2023-12-04 22:04:26 - [MESSAGE][PASSED] - I tap the "SendMoneyDirectly" button
+
+2023-12-04 22:04:26 - [TEST_STEP][PASSED] - I insert a valid amount of money in the "AmountOfMoney" field: I insert a valid amount of money in the "AmountOfMoney" field
+
+2023-12-04 22:04:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:04:27 - [MESSAGE][PASSED] - Text '5' has been set to element 'Object Repository/sendMoneyAmount'
+
+2023-12-04 22:04:27 - [MESSAGE][PASSED] - I insert a valid amount of money in the "AmountOfMoney" field
+
+2023-12-04 22:04:27 - [TEST_STEP][PASSED] - I tap the "Send" button: I tap the "Send" button
+
+2023-12-04 22:04:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:04:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Send'
+
+2023-12-04 22:04:28 - [MESSAGE][PASSED] - I tap the "Send" button
+
+2023-12-04 22:04:28 - [TEST_STEP][PASSED] - The money is sent to a phone number: The money is sent to a phone number
+
+2023-12-04 22:04:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:04:29 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/codeConfirmationDirectly'
+
+2023-12-04 22:04:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:04:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/buttonSendMoneyOk'
+
+2023-12-04 22:04:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-12-04 22:04:36 - [MESSAGE][PASSED] - Close app successfully
+
+2023-12-04 22:04:36 - [MESSAGE][PASSED] - The money is sent to a phone number
+
+2023-12-04 22:04:36 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Send Money directly to a phone number Cancel Situation: SCENARIO Send Money directly to a phone number Cancel Situation
+
+2023-12-04 22:04:36 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-12-04 22:04:37 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-12-04 22:04:38 - [MESSAGE][INFO] - Appium server started on port 63,691
+
+2023-12-04 22:04:46 - [MESSAGE][PASSED] - Started app at: 'S:\TAES\Projeto\tests\appForTest\app-release.apk'
+
+2023-12-04 22:04:46 - [MESSAGE][PASSED] - I start the application
+
+2023-12-04 22:04:46 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-12-04 22:04:46 - [MESSAGE][PASSED] - I have a vCard
+
+2023-12-04 22:04:46 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-12-04 22:04:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:04:47 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/codeConfirmation'
+
+2023-12-04 22:04:47 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-12-04 22:04:47 - [TEST_STEP][PASSED] - I tap the "Login" button: I tap the "Login" button
+
+2023-12-04 22:04:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:04:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Login'
+
+2023-12-04 22:04:48 - [MESSAGE][PASSED] - I tap the "Login" button
+
+2023-12-04 22:04:48 - [TEST_STEP][PASSED] - I tap the "SendMoney" button: I tap the "SendMoney" button
+
+2023-12-04 22:04:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:04:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-SendMoney'
+
+2023-12-04 22:04:50 - [MESSAGE][PASSED] - I tap the "SendMoney" button
+
+2023-12-04 22:04:50 - [TEST_STEP][PASSED] - I insert a phone number in the "PhoneNumber" field: I insert a phone number in the "PhoneNumber" field
+
+2023-12-04 22:04:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:04:52 - [MESSAGE][PASSED] - Text '911000002' has been set to element 'Object Repository/sendMoneyPhoneNumber'
+
+2023-12-04 22:04:52 - [MESSAGE][PASSED] - I insert a phone number in the "PhoneNumber" field
+
+2023-12-04 22:04:52 - [TEST_STEP][PASSED] - I tap the "SendMoneyDirectly" button: I tap the "SendMoneyDirectly" button
+
+2023-12-04 22:04:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:04:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-SendMoneyDirectly'
+
+2023-12-04 22:04:53 - [MESSAGE][PASSED] - I tap the "SendMoneyDirectly" button
+
+2023-12-04 22:04:53 - [TEST_STEP][PASSED] - I insert a valid amount of money in the "AmountOfMoney" field: I insert a valid amount of money in the "AmountOfMoney" field
+
+2023-12-04 22:04:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:04:55 - [MESSAGE][PASSED] - Text '5' has been set to element 'Object Repository/sendMoneyAmount'
+
+2023-12-04 22:04:55 - [MESSAGE][PASSED] - I insert a valid amount of money in the "AmountOfMoney" field
+
+2023-12-04 22:04:55 - [TEST_STEP][PASSED] - I tap the "Send" button: I tap the "Send" button
+
+2023-12-04 22:04:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:04:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Send'
+
+2023-12-04 22:04:57 - [MESSAGE][PASSED] - I tap the "Send" button
+
+2023-12-04 22:04:57 - [TEST_STEP][PASSED] - I cancel the send money to a phone number: I cancel the send money to a phone number
+
+2023-12-04 22:04:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:04:57 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/codeConfirmationDirectly'
+
+2023-12-04 22:04:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:04:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/buttonSendMoneyCancel'
+
+2023-12-04 22:05:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-12-04 22:05:05 - [MESSAGE][PASSED] - Close app successfully
+
+2023-12-04 22:05:05 - [MESSAGE][PASSED] - I cancel the send money to a phone number
+
+2023-12-04 22:05:05 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Send Money directly to a phone number Invalid Situation: SCENARIO Send Money directly to a phone number Invalid Situation
+
+2023-12-04 22:05:05 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-12-04 22:05:05 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-12-04 22:05:06 - [MESSAGE][INFO] - Appium server started on port 63,797
+
+2023-12-04 22:05:14 - [MESSAGE][PASSED] - Started app at: 'S:\TAES\Projeto\tests\appForTest\app-release.apk'
+
+2023-12-04 22:05:14 - [MESSAGE][PASSED] - I start the application
+
+2023-12-04 22:05:14 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-12-04 22:05:14 - [MESSAGE][PASSED] - I have a vCard
+
+2023-12-04 22:05:14 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-12-04 22:05:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:05:15 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/codeConfirmation'
+
+2023-12-04 22:05:15 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-12-04 22:05:15 - [TEST_STEP][PASSED] - I tap the "Login" button: I tap the "Login" button
+
+2023-12-04 22:05:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:05:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Login'
+
+2023-12-04 22:05:16 - [MESSAGE][PASSED] - I tap the "Login" button
+
+2023-12-04 22:05:16 - [TEST_STEP][PASSED] - I tap the "SendMoney" button: I tap the "SendMoney" button
+
+2023-12-04 22:05:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:05:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-SendMoney'
+
+2023-12-04 22:05:18 - [MESSAGE][PASSED] - I tap the "SendMoney" button
+
+2023-12-04 22:05:18 - [TEST_STEP][PASSED] - I insert a phone number in the "PhoneNumber" field: I insert a phone number in the "PhoneNumber" field
+
+2023-12-04 22:05:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:05:21 - [MESSAGE][PASSED] - Text '911000002' has been set to element 'Object Repository/sendMoneyPhoneNumber'
+
+2023-12-04 22:05:21 - [MESSAGE][PASSED] - I insert a phone number in the "PhoneNumber" field
+
+2023-12-04 22:05:21 - [TEST_STEP][PASSED] - I tap the "SendMoneyDirectly" button: I tap the "SendMoneyDirectly" button
+
+2023-12-04 22:05:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:05:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-SendMoneyDirectly'
+
+2023-12-04 22:05:22 - [MESSAGE][PASSED] - I tap the "SendMoneyDirectly" button
+
+2023-12-04 22:05:22 - [TEST_STEP][PASSED] - I insert an amount bigger than my balance in the "AmountOfMoney" field: I insert an amount bigger than my balance in the "AmountOfMoney" field
+
+2023-12-04 22:05:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:05:24 - [MESSAGE][PASSED] - Text '1000' has been set to element 'Object Repository/sendMoneyAmount'
+
+2023-12-04 22:05:24 - [MESSAGE][PASSED] - I insert an amount bigger than my balance in the "AmountOfMoney" field
+
+2023-12-04 22:05:24 - [TEST_STEP][PASSED] - I tap the "Send" button: I tap the "Send" button
+
+2023-12-04 22:05:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:05:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Send'
+
+2023-12-04 22:05:25 - [MESSAGE][PASSED] - I tap the "Send" button
+
+2023-12-04 22:05:25 - [TEST_STEP][PASSED] - The money is not sent to a phone number: The money is not sent to a phone number
+
+2023-12-04 22:05:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-12-04 22:05:30 - [MESSAGE][PASSED] - Close app successfully
+
+2023-12-04 22:05:30 - [MESSAGE][PASSED] - The money is not sent to a phone number
+
+2023-12-04 22:05:30 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Send Money to a contact with vCard Valid: SCENARIO Send Money to a contact with vCard Valid
+
+2023-12-04 22:05:30 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-12-04 22:05:30 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-12-04 22:05:31 - [MESSAGE][INFO] - Appium server started on port 63,903
+
+2023-12-04 22:05:39 - [MESSAGE][PASSED] - Started app at: 'S:\TAES\Projeto\tests\appForTest\app-release.apk'
+
+2023-12-04 22:05:39 - [MESSAGE][PASSED] - I start the application
+
+2023-12-04 22:05:39 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-12-04 22:05:39 - [MESSAGE][PASSED] - I have a vCard
+
+2023-12-04 22:05:39 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-12-04 22:05:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:05:41 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/codeConfirmation'
+
+2023-12-04 22:05:41 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-12-04 22:05:41 - [TEST_STEP][PASSED] - I tap the "Login" button: I tap the "Login" button
+
+2023-12-04 22:05:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:05:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Login'
+
+2023-12-04 22:05:41 - [MESSAGE][PASSED] - I tap the "Login" button
+
+2023-12-04 22:05:41 - [TEST_STEP][PASSED] - I tap the "SendMoney" button: I tap the "SendMoney" button
+
+2023-12-04 22:05:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:05:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-SendMoney'
+
+2023-12-04 22:05:44 - [MESSAGE][PASSED] - I tap the "SendMoney" button
+
+2023-12-04 22:05:44 - [TEST_STEP][PASSED] - I chose a contact with vCard: I chose a contact with vCard
+
+2023-12-04 22:05:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:05:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/selectedPhoneNumber'
+
+2023-12-04 22:05:45 - [MESSAGE][PASSED] - I chose a contact with vCard
+
+2023-12-04 22:05:45 - [TEST_STEP][PASSED] - I insert a valid amount of money in the "AmountOfMoney" field: I insert a valid amount of money in the "AmountOfMoney" field
+
+2023-12-04 22:05:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:05:47 - [MESSAGE][PASSED] - Text '5' has been set to element 'Object Repository/sendMoneyAmount'
+
+2023-12-04 22:05:47 - [MESSAGE][PASSED] - I insert a valid amount of money in the "AmountOfMoney" field
+
+2023-12-04 22:05:47 - [TEST_STEP][PASSED] - I tap the "Send" button: I tap the "Send" button
+
+2023-12-04 22:05:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:05:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Send'
+
+2023-12-04 22:05:49 - [MESSAGE][PASSED] - I tap the "Send" button
+
+2023-12-04 22:05:49 - [TEST_STEP][PASSED] - The money is sent to a phone number: The money is sent to a phone number
+
+2023-12-04 22:05:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:05:49 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/codeConfirmationDirectly'
+
+2023-12-04 22:05:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:05:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/buttonSendMoneyOk'
+
+2023-12-04 22:05:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-12-04 22:05:57 - [MESSAGE][PASSED] - Close app successfully
+
+2023-12-04 22:05:57 - [MESSAGE][PASSED] - The money is sent to a phone number
+
+2023-12-04 22:05:57 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Send Money to a contact with vCard Cancel Situation: SCENARIO Send Money to a contact with vCard Cancel Situation
+
+2023-12-04 22:05:57 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-12-04 22:05:57 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-12-04 22:05:58 - [MESSAGE][INFO] - Appium server started on port 64,009
+
+2023-12-04 22:06:05 - [MESSAGE][PASSED] - Started app at: 'S:\TAES\Projeto\tests\appForTest\app-release.apk'
+
+2023-12-04 22:06:05 - [MESSAGE][PASSED] - I start the application
+
+2023-12-04 22:06:05 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-12-04 22:06:05 - [MESSAGE][PASSED] - I have a vCard
+
+2023-12-04 22:06:05 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-12-04 22:06:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:06:07 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/codeConfirmation'
+
+2023-12-04 22:06:07 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-12-04 22:06:07 - [TEST_STEP][PASSED] - I tap the "Login" button: I tap the "Login" button
+
+2023-12-04 22:06:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:06:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Login'
+
+2023-12-04 22:06:08 - [MESSAGE][PASSED] - I tap the "Login" button
+
+2023-12-04 22:06:08 - [TEST_STEP][PASSED] - I tap the "SendMoney" button: I tap the "SendMoney" button
+
+2023-12-04 22:06:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:06:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-SendMoney'
+
+2023-12-04 22:06:10 - [MESSAGE][PASSED] - I tap the "SendMoney" button
+
+2023-12-04 22:06:10 - [TEST_STEP][PASSED] - I chose a contact with vCard: I chose a contact with vCard
+
+2023-12-04 22:06:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:06:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/selectedPhoneNumber'
+
+2023-12-04 22:06:13 - [MESSAGE][PASSED] - I chose a contact with vCard
+
+2023-12-04 22:06:13 - [TEST_STEP][PASSED] - I insert a valid amount of money in the "AmountOfMoney" field: I insert a valid amount of money in the "AmountOfMoney" field
+
+2023-12-04 22:06:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:06:14 - [MESSAGE][PASSED] - Text '5' has been set to element 'Object Repository/sendMoneyAmount'
+
+2023-12-04 22:06:14 - [MESSAGE][PASSED] - I insert a valid amount of money in the "AmountOfMoney" field
+
+2023-12-04 22:06:14 - [TEST_STEP][PASSED] - I tap the "Send" button: I tap the "Send" button
+
+2023-12-04 22:06:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:06:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Send'
+
+2023-12-04 22:06:15 - [MESSAGE][PASSED] - I tap the "Send" button
+
+2023-12-04 22:06:15 - [TEST_STEP][PASSED] - I cancel the send money to a phone number: I cancel the send money to a phone number
+
+2023-12-04 22:06:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:06:16 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/codeConfirmationDirectly'
+
+2023-12-04 22:06:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:06:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/buttonSendMoneyCancel'
+
+2023-12-04 22:06:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-12-04 22:06:22 - [MESSAGE][PASSED] - Close app successfully
+
+2023-12-04 22:06:22 - [MESSAGE][PASSED] - I cancel the send money to a phone number
+
+2023-12-04 22:06:22 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Send Money to a contact with vCard Invalid Situation: SCENARIO Send Money to a contact with vCard Invalid Situation
+
+2023-12-04 22:06:22 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-12-04 22:06:22 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-12-04 22:06:24 - [MESSAGE][INFO] - Appium server started on port 64,113
+
+2023-12-04 22:06:32 - [MESSAGE][PASSED] - Started app at: 'S:\TAES\Projeto\tests\appForTest\app-release.apk'
+
+2023-12-04 22:06:32 - [MESSAGE][PASSED] - I start the application
+
+2023-12-04 22:06:32 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-12-04 22:06:32 - [MESSAGE][PASSED] - I have a vCard
+
+2023-12-04 22:06:32 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-12-04 22:06:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:06:33 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/codeConfirmation'
+
+2023-12-04 22:06:33 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-12-04 22:06:33 - [TEST_STEP][PASSED] - I tap the "Login" button: I tap the "Login" button
+
+2023-12-04 22:06:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:06:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Login'
+
+2023-12-04 22:06:35 - [MESSAGE][PASSED] - I tap the "Login" button
+
+2023-12-04 22:06:35 - [TEST_STEP][PASSED] - I tap the "SendMoney" button: I tap the "SendMoney" button
+
+2023-12-04 22:06:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:06:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-SendMoney'
+
+2023-12-04 22:06:36 - [MESSAGE][PASSED] - I tap the "SendMoney" button
+
+2023-12-04 22:06:36 - [TEST_STEP][PASSED] - I chose a contact with vCard: I chose a contact with vCard
+
+2023-12-04 22:06:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:06:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/selectedPhoneNumber'
+
+2023-12-04 22:06:38 - [MESSAGE][PASSED] - I chose a contact with vCard
+
+2023-12-04 22:06:38 - [TEST_STEP][PASSED] - I insert an amount bigger than my balance in the "AmountOfMoney" field: I insert an amount bigger than my balance in the "AmountOfMoney" field
+
+2023-12-04 22:06:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:06:40 - [MESSAGE][PASSED] - Text '1000' has been set to element 'Object Repository/sendMoneyAmount'
+
+2023-12-04 22:06:40 - [MESSAGE][PASSED] - I insert an amount bigger than my balance in the "AmountOfMoney" field
+
+2023-12-04 22:06:40 - [TEST_STEP][PASSED] - I tap the "Send" button: I tap the "Send" button
+
+2023-12-04 22:06:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:06:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Send'
+
+2023-12-04 22:06:41 - [MESSAGE][PASSED] - I tap the "Send" button
+
+2023-12-04 22:06:41 - [TEST_STEP][PASSED] - The money is not sent to a phone number: The money is not sent to a phone number
+
+2023-12-04 22:06:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-12-04 22:06:46 - [MESSAGE][PASSED] - Close app successfully
+
+2023-12-04 22:06:46 - [MESSAGE][PASSED] - The money is not sent to a phone number
+
+2023-12-04 22:06:46 - [MESSAGE][PASSED] - Feature file: 'Include/features/US10-Send Money to vCard/SendMoneyToVCard.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/US11 - Transactions Page/ListofTransactionsTests" time="18.962" classname="Test Cases/US11 - Transactions Page/ListofTransactionsTests" status="PASSED">
+         <system-out><![CDATA[2023-12-04 22:06:46 - [TEST_CASE][PASSED] - Test Cases/US11 - Transactions Page/ListofTransactionsTests: Test Cases/US11 - Transactions Page/ListofTransactionsTests
+
+2023-12-04 22:06:47 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/US11-ListOfTransactions/ListOfTransactions.feature"): Feature file: 'Include/features/US11-ListOfTransactions/ListOfTransactions.feature' was passed
+
+2023-12-04 22:06:47 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/US11-ListOfTransactions/ListOfTransactions.feature' and extract report to folder: 'S:\TAES\Projeto\tests\Reports\20231204_220311\TestSuit2\20231204_220311/cucumber_report/1701727607149'...
+
+2023-12-04 22:06:47 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO List of Transaction on Transaction Page: SCENARIO List of Transaction on Transaction Page
+
+2023-12-04 22:06:47 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-12-04 22:06:47 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-12-04 22:06:48 - [MESSAGE][INFO] - Appium server started on port 64,222
+
+2023-12-04 22:06:55 - [MESSAGE][PASSED] - Started app at: 'S:\TAES\Projeto\tests\appForTest\app-release.apk'
+
+2023-12-04 22:06:55 - [MESSAGE][PASSED] - I start the application
+
+2023-12-04 22:06:55 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-12-04 22:06:55 - [MESSAGE][PASSED] - I have a vCard
+
+2023-12-04 22:06:55 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-12-04 22:06:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:06:57 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/codeConfirmation'
+
+2023-12-04 22:06:57 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-12-04 22:06:57 - [TEST_STEP][PASSED] - I tap the "Login" button: I tap the "Login" button
+
+2023-12-04 22:06:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:06:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Login'
+
+2023-12-04 22:06:57 - [MESSAGE][PASSED] - I tap the "Login" button
+
+2023-12-04 22:06:57 - [TEST_STEP][PASSED] - I tap the "Transactions" button: I tap the "Transactions" button
+
+2023-12-04 22:06:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:07:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Transactions'
+
+2023-12-04 22:07:01 - [MESSAGE][PASSED] - I tap the "Transactions" button
+
+2023-12-04 22:07:01 - [TEST_STEP][PASSED] - I can all my transactions: I can all my transactions
+
+2023-12-04 22:07:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:07:01 - [MESSAGE][PASSED] - Element 'Object Repository/transactionsList' is exist
+
+2023-12-04 22:07:05 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-12-04 22:07:05 - [MESSAGE][PASSED] - Close app successfully
+
+2023-12-04 22:07:05 - [MESSAGE][PASSED] - I can all my transactions
+
+2023-12-04 22:07:05 - [MESSAGE][PASSED] - Feature file: 'Include/features/US11-ListOfTransactions/ListOfTransactions.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/US13-Transactions filter by type/ListOfTransactionsFilterByTests" time="65.244" classname="Test Cases/US13-Transactions filter by type/ListOfTransactionsFilterByTests" status="PASSED">
+         <system-out><![CDATA[2023-12-04 22:07:05 - [TEST_CASE][PASSED] - Test Cases/US13-Transactions filter by type/ListOfTransactionsFilterByTests: Test Cases/US13-Transactions filter by type/ListOfTransactionsFilterByTests
+
+2023-12-04 22:07:06 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/US13-TransactionsFilterByType/TransactionsFilterByType.feature"): Feature file: 'Include/features/US13-TransactionsFilterByType/TransactionsFilterByType.feature' was passed
+
+2023-12-04 22:07:06 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/US13-TransactionsFilterByType/TransactionsFilterByType.feature' and extract report to folder: 'S:\TAES\Projeto\tests\Reports\20231204_220311\TestSuit2\20231204_220311/cucumber_report/1701727626092'...
+
+2023-12-04 22:07:06 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO List of Transaction on Transaction Page filtered by type: SCENARIO List of Transaction on Transaction Page filtered by type
+
+2023-12-04 22:07:06 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-12-04 22:07:06 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-12-04 22:07:07 - [MESSAGE][INFO] - Appium server started on port 64,328
+
+2023-12-04 22:07:15 - [MESSAGE][PASSED] - Started app at: 'S:\TAES\Projeto\tests\appForTest\app-release.apk'
+
+2023-12-04 22:07:15 - [MESSAGE][PASSED] - I start the application
+
+2023-12-04 22:07:15 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-12-04 22:07:15 - [MESSAGE][PASSED] - I have a vCard
+
+2023-12-04 22:07:15 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-12-04 22:07:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:07:16 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/codeConfirmation'
+
+2023-12-04 22:07:16 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-12-04 22:07:16 - [TEST_STEP][PASSED] - I tap the "Login" button: I tap the "Login" button
+
+2023-12-04 22:07:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:07:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Login'
+
+2023-12-04 22:07:18 - [MESSAGE][PASSED] - I tap the "Login" button
+
+2023-12-04 22:07:18 - [TEST_STEP][PASSED] - I tap the "Transactions" button: I tap the "Transactions" button
+
+2023-12-04 22:07:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:07:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Transactions'
+
+2023-12-04 22:07:20 - [MESSAGE][PASSED] - I tap the "Transactions" button
+
+2023-12-04 22:07:20 - [TEST_STEP][PASSED] - I select "All" in selectbox: I select "All" in selectbox
+
+2023-12-04 22:07:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:07:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/radioBtn-All'
+
+2023-12-04 22:07:21 - [MESSAGE][PASSED] - I select "All" in selectbox
+
+2023-12-04 22:07:21 - [TEST_STEP][PASSED] - I can see all my transactions: I can see all my transactions
+
+2023-12-04 22:07:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:07:22 - [MESSAGE][PASSED] - Element 'Object Repository/transactionsList' is exist
+
+2023-12-04 22:07:26 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-12-04 22:07:26 - [MESSAGE][PASSED] - Close app successfully
+
+2023-12-04 22:07:26 - [MESSAGE][PASSED] - I can see all my transactions
+
+2023-12-04 22:07:26 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Transaction list filter by Credit: SCENARIO Transaction list filter by Credit
+
+2023-12-04 22:07:26 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-12-04 22:07:26 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-12-04 22:07:28 - [MESSAGE][INFO] - Appium server started on port 64,434
+
+2023-12-04 22:07:36 - [MESSAGE][PASSED] - Started app at: 'S:\TAES\Projeto\tests\appForTest\app-release.apk'
+
+2023-12-04 22:07:36 - [MESSAGE][PASSED] - I start the application
+
+2023-12-04 22:07:36 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-12-04 22:07:36 - [MESSAGE][PASSED] - I have a vCard
+
+2023-12-04 22:07:36 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-12-04 22:07:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:07:38 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/codeConfirmation'
+
+2023-12-04 22:07:38 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-12-04 22:07:38 - [TEST_STEP][PASSED] - I tap the "Login" button: I tap the "Login" button
+
+2023-12-04 22:07:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:07:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Login'
+
+2023-12-04 22:07:38 - [MESSAGE][PASSED] - I tap the "Login" button
+
+2023-12-04 22:07:38 - [TEST_STEP][PASSED] - I tap the "Transactions" button: I tap the "Transactions" button
+
+2023-12-04 22:07:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:07:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Transactions'
+
+2023-12-04 22:07:42 - [MESSAGE][PASSED] - I tap the "Transactions" button
+
+2023-12-04 22:07:42 - [TEST_STEP][PASSED] - I select "Credit" in selectbox: I select "Credit" in selectbox
+
+2023-12-04 22:07:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:07:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/radioBtn-Credit'
+
+2023-12-04 22:07:42 - [MESSAGE][PASSED] - I select "Credit" in selectbox
+
+2023-12-04 22:07:42 - [TEST_STEP][PASSED] - I can see all my credit transactions: I can see all my credit transactions
+
+2023-12-04 22:07:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:07:43 - [MESSAGE][PASSED] - Element 'Object Repository/transactionsList' is exist
+
+2023-12-04 22:07:47 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-12-04 22:07:47 - [MESSAGE][PASSED] - Close app successfully
+
+2023-12-04 22:07:47 - [MESSAGE][PASSED] - I can see all my credit transactions
+
+2023-12-04 22:07:47 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Transaction list filter by Debit: SCENARIO Transaction list filter by Debit
+
+2023-12-04 22:07:47 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-12-04 22:07:48 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-12-04 22:07:49 - [MESSAGE][INFO] - Appium server started on port 64,540
+
+2023-12-04 22:07:59 - [MESSAGE][PASSED] - Started app at: 'S:\TAES\Projeto\tests\appForTest\app-release.apk'
+
+2023-12-04 22:07:59 - [MESSAGE][PASSED] - I start the application
+
+2023-12-04 22:07:59 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-12-04 22:07:59 - [MESSAGE][PASSED] - I have a vCard
+
+2023-12-04 22:07:59 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-12-04 22:07:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:08:00 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/codeConfirmation'
+
+2023-12-04 22:08:00 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-12-04 22:08:00 - [TEST_STEP][PASSED] - I tap the "Login" button: I tap the "Login" button
+
+2023-12-04 22:08:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:08:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Login'
+
+2023-12-04 22:08:01 - [MESSAGE][PASSED] - I tap the "Login" button
+
+2023-12-04 22:08:01 - [TEST_STEP][PASSED] - I tap the "Transactions" button: I tap the "Transactions" button
+
+2023-12-04 22:08:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:08:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Transactions'
+
+2023-12-04 22:08:05 - [MESSAGE][PASSED] - I tap the "Transactions" button
+
+2023-12-04 22:08:05 - [TEST_STEP][PASSED] - I select "Debit" in selectbox: I select "Debit" in selectbox
+
+2023-12-04 22:08:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:08:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/radioBtn-Debit'
+
+2023-12-04 22:08:05 - [MESSAGE][PASSED] - I select "Debit" in selectbox
+
+2023-12-04 22:08:05 - [TEST_STEP][PASSED] - I can see all my debit transactions: I can see all my debit transactions
+
+2023-12-04 22:08:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:08:06 - [MESSAGE][PASSED] - Element 'Object Repository/transactionsList' is exist
+
+2023-12-04 22:08:10 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-12-04 22:08:11 - [MESSAGE][PASSED] - Close app successfully
+
+2023-12-04 22:08:11 - [MESSAGE][PASSED] - I can see all my debit transactions
+
+2023-12-04 22:08:11 - [MESSAGE][PASSED] - Feature file: 'Include/features/US13-TransactionsFilterByType/TransactionsFilterByType.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/US14-Transactions filter between dates/ListOfTransactionsBetweenDateTests" time="32.458" classname="Test Cases/US14-Transactions filter between dates/ListOfTransactionsBetweenDateTests" status="PASSED">
+         <system-out><![CDATA[2023-12-04 22:08:11 - [TEST_CASE][PASSED] - Test Cases/US14-Transactions filter between dates/ListOfTransactionsBetweenDateTests: Test Cases/US14-Transactions filter between dates/ListOfTransactionsBetweenDateTests
+
+2023-12-04 22:08:11 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/US14-TransactionsFilterBetweenDate/TransactionsFilterBetweenDate.feature"): Feature file: 'Include/features/US14-TransactionsFilterBetweenDate/TransactionsFilterBetweenDate.feature' was passed
+
+2023-12-04 22:08:11 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/US14-TransactionsFilterBetweenDate/TransactionsFilterBetweenDate.feature' and extract report to folder: 'S:\TAES\Projeto\tests\Reports\20231204_220311\TestSuit2\20231204_220311/cucumber_report/1701727691408'...
+
+2023-12-04 22:08:11 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO List of Transaction on Transaction Page filtered between dates: SCENARIO List of Transaction on Transaction Page filtered between dates
+
+2023-12-04 22:08:11 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-12-04 22:08:11 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-12-04 22:08:12 - [MESSAGE][INFO] - Appium server started on port 64,676
+
+2023-12-04 22:08:20 - [MESSAGE][PASSED] - Started app at: 'S:\TAES\Projeto\tests\appForTest\app-release.apk'
+
+2023-12-04 22:08:20 - [MESSAGE][PASSED] - I start the application
+
+2023-12-04 22:08:20 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-12-04 22:08:20 - [MESSAGE][PASSED] - I have a vCard
+
+2023-12-04 22:08:20 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-12-04 22:08:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:08:22 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/codeConfirmation'
+
+2023-12-04 22:08:22 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-12-04 22:08:22 - [TEST_STEP][PASSED] - I tap the "Login" button: I tap the "Login" button
+
+2023-12-04 22:08:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:08:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Login'
+
+2023-12-04 22:08:23 - [MESSAGE][PASSED] - I tap the "Login" button
+
+2023-12-04 22:08:23 - [TEST_STEP][PASSED] - I tap the "Transactions" button: I tap the "Transactions" button
+
+2023-12-04 22:08:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:08:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Transactions'
+
+2023-12-04 22:08:26 - [MESSAGE][PASSED] - I tap the "Transactions" button
+
+2023-12-04 22:08:26 - [TEST_STEP][PASSED] - I choose a start date: I choose a start date
+
+2023-12-04 22:08:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:08:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/startDate'
+
+2023-12-04 22:08:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:08:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/dayFrom'
+
+2023-12-04 22:08:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:08:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/buttonCalendarOK'
+
+2023-12-04 22:08:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-12-04 22:08:31 - [MESSAGE][PASSED] - I choose a start date
+
+2023-12-04 22:08:31 - [TEST_STEP][PASSED] - I chosse a end date: I chosse a end date
+
+2023-12-04 22:08:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:08:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/endDate'
+
+2023-12-04 22:08:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:08:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/dayTo'
+
+2023-12-04 22:08:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:08:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/buttonCalendarOK'
+
+2023-12-04 22:08:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-12-04 22:08:35 - [MESSAGE][PASSED] - I chosse a end date
+
+2023-12-04 22:08:35 - [TEST_STEP][PASSED] - I tap the "Filter" button: I tap the "Filter" button
+
+2023-12-04 22:08:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:08:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Filter'
+
+2023-12-04 22:08:36 - [MESSAGE][PASSED] - I tap the "Filter" button
+
+2023-12-04 22:08:36 - [TEST_STEP][PASSED] - I can all my transactions filtered: I can all my transactions filtered
+
+2023-12-04 22:08:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-12-04 22:08:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-12-04 22:08:39 - [MESSAGE][PASSED] - Element 'Object Repository/transactionsList' is exist
+
+2023-12-04 22:08:43 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-12-04 22:08:43 - [MESSAGE][PASSED] - Close app successfully
+
+2023-12-04 22:08:43 - [MESSAGE][PASSED] - I can all my transactions filtered
+
+2023-12-04 22:08:43 - [MESSAGE][PASSED] - Feature file: 'Include/features/US14-TransactionsFilterBetweenDate/TransactionsFilterBetweenDate.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-12-04 22:03:17 - [TEST_SUITE][PASSED] - TestSuit2: Test Cases/US14-Transactions filter between dates/ListOfTransactionsBetweenDateTests]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,459 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "3075b8cc-97be-4853-bb20-d10407764f0b",
+        "line": 6,
+        "name": "Create vCard Fail",
+        "description": "",
+        "id": "new-vcard-user;create-vcard-fail",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11076923500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I start the application",
+            "match": {
+              "location": "US1.i_start_the_application()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "e28a1580-e4da-41e3-a096-50ee64a50b6c"
+          },
+          {
+            "result": {
+              "duration": 1421000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I dont have a vCard associated",
+            "match": {
+              "location": "US1.i_dont_have_a_vCard_associated()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "e114ffa0-121e-4c89-b784-a9ef6c9a482b"
+          },
+          {
+            "result": {
+              "duration": 615200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I dont insert my credencials",
+            "match": {
+              "location": "US1.i_dont_insert_my_credencials()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "6f2aa6fc-c080-4b70-a823-c705258f4f66"
+          },
+          {
+            "result": {
+              "duration": 1067199600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I tap the \"create vCard\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"create vCard\"",
+                  "offset": 10
+                }
+              ],
+              "location": "US1.i_tap_the_button(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "00b1bab5-0278-4d50-8c29-6333b273a005"
+          },
+          {
+            "result": {
+              "duration": 974088700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I can see \"empty fields\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"empty fields\"",
+                  "offset": 10
+                }
+              ],
+              "location": "US1.i_can_see___message(String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "0b3c04ff-792b-4c2f-afd3-01b8275b36d1"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "b29db7c6-c2dd-4767-8a8e-b92a0da3f800",
+        "line": 13,
+        "name": "Create vCard Fail(Phone number already exists)",
+        "description": "",
+        "id": "new-vcard-user;create-vcard-fail(phone-number-already-exists)",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9141378700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I start the application",
+            "match": {
+              "location": "US1.i_start_the_application()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "0bf431f9-f4f6-4c8e-8f23-b3d955eaa263"
+          },
+          {
+            "result": {
+              "duration": 672300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I dont have a vCard associated",
+            "match": {
+              "location": "US1.i_dont_have_a_vCard_associated()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "7c7cbbab-0396-43c8-9a4c-de2c0796a3a8"
+          },
+          {
+            "result": {
+              "duration": 3746634900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I insert an phone number that already has card",
+            "match": {
+              "location": "US1.i_insert_an_phone_number_that_already_has_card()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "2fff8f33-753b-4545-968a-1912dedc6e29"
+          },
+          {
+            "result": {
+              "duration": 655479300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I tap the \"create vCard\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"create vCard\"",
+                  "offset": 10
+                }
+              ],
+              "location": "US1.i_tap_the_button(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "987f3f6e-4ab0-4f19-8797-de93fc7a7f32"
+          },
+          {
+            "result": {
+              "duration": 1455239800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I can see \"Phone number already exists\" message error",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Phone number already exists\"",
+                  "offset": 10
+                }
+              ],
+              "location": "US1.i_can_see_message_error(String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "92bcc60e-19c5-4a0e-8ca9-8c65ddbcb9e8"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "4979867d-e9cf-4482-a0bb-24bc6db49e9c",
+        "line": 20,
+        "name": "Create vCard Successfully",
+        "description": "",
+        "id": "new-vcard-user;create-vcard-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9140808600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I start the application",
+            "match": {
+              "location": "US1.i_start_the_application()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "1df00349-e52a-4b68-a4b3-2b59edb7aafb"
+          },
+          {
+            "result": {
+              "duration": 438800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I dont have a vCard associated",
+            "match": {
+              "location": "US1.i_dont_have_a_vCard_associated()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "d836948f-d695-4407-bbda-b9b098789143"
+          },
+          {
+            "result": {
+              "duration": 3719047500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I insert my credencials",
+            "match": {
+              "location": "US1.i_insert_my_credencials()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "a7ebfe4a-7848-4dd9-87b8-c03a244d0aa2"
+          },
+          {
+            "result": {
+              "duration": 660124600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I tap the \"create vCard\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"create vCard\"",
+                  "offset": 10
+                }
+              ],
+              "location": "US1.i_tap_the_button(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "936999fa-4c24-4785-b57b-f3b090b76631"
+          },
+          {
+            "result": {
+              "duration": 2628975300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I can see  \"vCard created\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vCard created\"",
+                  "offset": 11
+                }
+              ],
+              "location": "US1.i_can_see_message(String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "f0595b77-4342-4903-92e7-8aca9c5fd700"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "45523762-9266-4e4b-8cf7-d2c06c3939a0",
+        "line": 27,
+        "name": "Login Successfuly",
+        "description": "",
+        "id": "new-vcard-user;login-successfuly",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9053139400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I start the application",
+            "match": {
+              "location": "US1.i_start_the_application()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "c6d5ba68-5c2e-4b1a-b9d7-86bb74304402"
+          },
+          {
+            "result": {
+              "duration": 400900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I have a vCard associated",
+            "match": {
+              "location": "US1.i_have_a_vCard_associated()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "bc3aa020-acce-4926-9e01-3156d5eea2b4"
+          },
+          {
+            "result": {
+              "duration": 1543351900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I insert my \"pin code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pin code\"",
+                  "offset": 12
+                }
+              ],
+              "location": "US1.i_insert_my(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "ad9b6f6b-1ebd-48b3-97e1-964e2c522bca"
+          },
+          {
+            "result": {
+              "duration": 648977400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I tap \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 6
+                }
+              ],
+              "location": "US1.i_tap_button(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "0d6e5905-db93-4ff7-968b-b4953390eae4"
+          },
+          {
+            "result": {
+              "duration": 1278227500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I have access to the dashboard",
+            "match": {
+              "location": "US1.i_have_access_to_the_dashboard()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "78c9991f-0ea6-45d4-aa29-45428dd58c1d"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "73071a3d-11f5-43c6-bf54-f6754c54afea",
+        "line": 34,
+        "name": "Login Fail",
+        "description": "",
+        "id": "new-vcard-user;login-fail",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9640050400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I start the application",
+            "match": {
+              "location": "US1.i_start_the_application()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "591b1d40-6819-413d-8616-9226ae9b2d32"
+          },
+          {
+            "result": {
+              "duration": 354400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I have a vCard associated",
+            "match": {
+              "location": "US1.i_have_a_vCard_associated()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "05b9ac8a-485e-4c2b-bf00-e6185d6e1270"
+          },
+          {
+            "result": {
+              "duration": 1448569600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I insert the wrong \"pin code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pin code\"",
+                  "offset": 19
+                }
+              ],
+              "location": "US1.i_insert_the_wrong(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "c2766483-88b2-4392-a448-cb9b1404273a"
+          },
+          {
+            "result": {
+              "duration": 667557700,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I tap \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 6
+                }
+              ],
+              "location": "US1.i_tap_button(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "38cb0245-a518-4ab5-90e7-3bfb75e8e1e0"
+          },
+          {
+            "result": {
+              "duration": 1426706300,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I can see   \"Pin code error\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pin code error\"",
+                  "offset": 12
+                }
+              ],
+              "location": "US1.i___can_see_message(String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "8beb363a-bc21-4034-9cc8-74a8bdca04f9"
+          }
+        ]
+      }
+    ],
+    "name": "New vCard user",
+    "description": "As an new vCard user\nI want to create an vCard\nSo that I can have access to all the features",
+    "id": "new-vcard-user",
+    "keyword": "Feature",
+    "uri": "C:/projetoTaes/tests/Include/features/US1-CreateVCard/US1-CreateVCard.feature",
+    "tags": []
+  }
+]

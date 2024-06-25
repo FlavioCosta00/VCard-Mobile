@@ -1,0 +1,297 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "32824c77-8aa4-4642-82fe-bb7c0823a556",
+        "line": 6,
+        "name": "Add new contact to the contacts list success",
+        "description": "",
+        "id": "add-new-contact-to-contact-page;add-new-contact-to-the-contacts-list-success",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9481800600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I start the application",
+            "match": {
+              "location": "US1.i_start_the_application()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "5195c0d7-f371-4529-8577-4afc1b53336c"
+          },
+          {
+            "result": {
+              "duration": 361800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have a vCard",
+            "match": {
+              "location": "US3.i_have_a_vCard()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "fded8a5e-5aa6-4d66-a165-61633f7e6b8d"
+          },
+          {
+            "result": {
+              "duration": 1400595700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I insert my \"pin code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pin code\"",
+                  "offset": 12
+                }
+              ],
+              "location": "US1.i_insert_my(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "7c31a58d-ae23-4314-a3fb-c9a5d3ef47c1"
+          },
+          {
+            "result": {
+              "duration": 691172300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I tap the  \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 11
+                }
+              ],
+              "location": "US5.i_tap__the_button(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "6193412c-5f82-499f-8bd5-394adcea02b8"
+          },
+          {
+            "result": {
+              "duration": 2350697700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I tap on \"SendMoney\"  button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SendMoney\"",
+                  "offset": 9
+                }
+              ],
+              "location": "US7.i_tap_on_button(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "bf59dbe2-455b-452d-bbe1-2dfa6829f962"
+          },
+          {
+            "result": {
+              "duration": 1930968200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I  tap on \"NewContact\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"NewContact\"",
+                  "offset": 10
+                }
+              ],
+              "location": "US8.i_tap_on_button(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "d841df0a-3559-4d73-97e2-dbedc908092b"
+          },
+          {
+            "result": {
+              "duration": 3786445100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I insert a new contact",
+            "match": {
+              "location": "US8.i_insert_a_new_contact()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "050ceab6-02d1-4c60-8d63-312b688b7d58"
+          },
+          {
+            "result": {
+              "duration": 2704614600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The new contact is added to the list of contacts",
+            "match": {
+              "location": "US8.the_new_contact_is_added_to_the_list_of_contacts()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "a5380aaa-8d8a-4f02-9620-c08e6d9e2347"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "97f1d3cf-8f15-4dc2-bfe3-c1c11bde3b28",
+        "line": 16,
+        "name": "Add new contact to the contacts list empty fields",
+        "description": "",
+        "id": "add-new-contact-to-contact-page;add-new-contact-to-the-contacts-list-empty-fields",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9093325700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I start the application",
+            "match": {
+              "location": "US1.i_start_the_application()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "0ae57aa2-f332-4111-a1e7-3c267562a814"
+          },
+          {
+            "result": {
+              "duration": 364500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I have a vCard",
+            "match": {
+              "location": "US3.i_have_a_vCard()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "108ee24c-5e38-48f7-9c26-f7ae25c430ac"
+          },
+          {
+            "result": {
+              "duration": 1411341000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I insert my \"pin code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pin code\"",
+                  "offset": 12
+                }
+              ],
+              "location": "US1.i_insert_my(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "fc050375-f8b3-4152-802d-a7d554fdd9c9"
+          },
+          {
+            "result": {
+              "duration": 658525500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I tap the  \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 11
+                }
+              ],
+              "location": "US5.i_tap__the_button(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "f34e5a9b-61c2-46dd-afe6-10820481f943"
+          },
+          {
+            "result": {
+              "duration": 2323424400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I tap on \"SendMoney\"  button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SendMoney\"",
+                  "offset": 9
+                }
+              ],
+              "location": "US7.i_tap_on_button(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "f14b51d3-0e9f-4f3b-8d20-9c58919dd986"
+          },
+          {
+            "result": {
+              "duration": 1675103400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I  tap on \"NewContact\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"NewContact\"",
+                  "offset": 10
+                }
+              ],
+              "location": "US8.i_tap_on_button(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "ac788aa7-4885-4b65-8e74-9eb4892aa896"
+          },
+          {
+            "result": {
+              "duration": 1431446600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I have empty fields",
+            "match": {
+              "location": "US8.i_have_empty_fields()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "35765fc9-63f9-45b5-9523-3db4fe6a0ec2"
+          },
+          {
+            "result": {
+              "duration": 725886800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "i can see \"Empty fields\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Empty fields\"",
+                  "offset": 10
+                }
+              ],
+              "location": "US8.i_can_see_message(String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "2e409b9b-7eb6-4e03-a611-3df43cf1091d"
+          }
+        ]
+      }
+    ],
+    "name": "Add new contact to Contact Page",
+    "description": "As a user\nI want to tap on \"Send Money\" button\nSo I can see all the contacts",
+    "id": "add-new-contact-to-contact-page",
+    "keyword": "Feature",
+    "uri": "C:/projetoTaes/tests/Include/features/US8-AddNewContactToTheList/US8-AddNewContactToTheList.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="38.658675">
+<testcase classname="Add new contact to Contact Page" name="Add new contact to the contacts list success" time="20.822323">
+<system-out><![CDATA[Given I start the application...............................................passed
+And I have a vCard..........................................................passed
+And I insert my "pin code"..................................................passed
+And I tap the  "Login" button...............................................passed
+And I tap on "SendMoney"  button............................................passed
+When I  tap on "NewContact" button..........................................passed
+And I insert a new contact..................................................passed
+Then The new contact is added to the list of contacts.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add new contact to Contact Page" name="Add new contact to the contacts list empty fields" time="17.836352">
+<system-out><![CDATA[Given I start the application...............................................passed
+And I have a vCard..........................................................passed
+And I insert my "pin code"..................................................passed
+And I tap the  "Login" button...............................................passed
+And I tap on "SendMoney"  button............................................passed
+When I  tap on "NewContact" button..........................................passed
+And I have empty fields.....................................................passed
+Then i can see "Empty fields" message.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

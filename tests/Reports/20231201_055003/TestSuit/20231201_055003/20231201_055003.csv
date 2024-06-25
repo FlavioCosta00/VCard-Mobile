@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuit,,,,2023-12-01 05:50:09,2023-12-01 05:55:53,5m - 44.351s,PASSED
+,,,,,,,
+Test Cases/US1 - Create VCard/US1-CreateVCard,,,,2023-12-01 05:50:09,2023-12-01 05:51:43,1m - 33.662s,PASSED
+"runFeatureFile(""Include/features/US1-CreateVCard/US1-CreateVCard.feature"")",,,,2023-12-01 05:50:10,2023-12-01 05:51:43,1m - 33.272s,PASSED
+,,,,,,,
+Test Cases/US3 - Check Balance on the dashboard/US3 - Check Balance on the dashboard,,,,2023-12-01 05:51:43,2023-12-01 05:52:20,36.801s,PASSED
+"runFeatureFile(""Include/features/US3-CheckBalanceOnTheDashBoard/US3-CheckBalanceOnTheDashBoard.feature"")",,,,2023-12-01 05:51:43,2023-12-01 05:52:20,36.496s,PASSED
+,,,,,,,
+Test Cases/US4 - Check Piggy Bank Balance on the dashboard/US4 - Check Piggy Bank Balance on the dashboard,,,,2023-12-01 05:52:20,2023-12-01 05:52:56,36.679s,PASSED
+"runFeatureFile(""Include/features/US4 -CheckPiggyBankBalanceOnTheDashboard/US4-CheckPiggyBankBalanceOnTheDashBoard.feature"")",,,,2023-12-01 05:52:20,2023-12-01 05:52:56,36.338s,PASSED
+,,,,,,,
+Test Cases/US5 - Deposit Money on the Piggy bank/US5 - Deposit Money on the Piggy bank,,,,2023-12-01 05:52:56,2023-12-01 05:53:44,47.504s,PASSED
+"runFeatureFile(""Include/features/US5-DepositMoneyOnThePiggyBank/DepositMoneyOnThePiggyBank.feature"")",,,,2023-12-01 05:52:57,2023-12-01 05:53:44,47.197s,PASSED
+,,,,,,,
+Test Cases/US6- Withdraw Money on the Piggy Bank/Withdraw Money on the Piggy Bank,,,,2023-12-01 05:53:44,2023-12-01 05:54:35,50.704s,PASSED
+"runFeatureFile(""Include/features/US6-WithdrawMoneyOnThePiggyBank/US6-WithdrawMoneyOnThePiggyBank.feature"")",,,,2023-12-01 05:53:44,2023-12-01 05:54:35,50.377s,PASSED
+,,,,,,,
+Test Cases/US7- List Of Contacts Page/ListOfContactsPage,,,,2023-12-01 05:54:35,2023-12-01 05:54:57,22.591s,PASSED
+"runFeatureFile(""Include/features/US7-ListOfContactsPage/ListOfContactsPage.feature"")",,,,2023-12-01 05:54:35,2023-12-01 05:54:57,22.297s,PASSED
+,,,,,,,
+Test Cases/US8 - Add New Contact To The List/US8-AddNewContactToTheList,,,,2023-12-01 05:54:57,2023-12-01 05:55:53,56.130s,PASSED
+"runFeatureFile(""Include/features/US8-AddNewContactToTheList/US8-AddNewContactToTheList.feature"")",,,,2023-12-01 05:54:58,2023-12-01 05:55:53,55.822s,PASSED

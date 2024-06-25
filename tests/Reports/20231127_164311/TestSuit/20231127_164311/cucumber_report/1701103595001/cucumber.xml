@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="38.768717">
+<testcase classname="Withdraw money on Piggy bank page" name="Withdraw a valid amount of money on the Piggy bank" time="22.262899">
+<system-out><![CDATA[Given I start the application...............................................passed
+And I have a vCard..........................................................passed
+And I insert my "pin code"..................................................passed
+And I tap the  "Login" button...............................................passed
+When I tap the  "PiggyBank"  button.........................................passed
+And I insert a valid amount of money........................................passed
+And I tap on "Remove"   button..............................................passed
+Then I can see the money removed on the Piggy bank..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Withdraw money on Piggy bank page" name="Withdraw an invalid amount of money on the Piggy bank" time="16.505818">
+<system-out><![CDATA[Given I start the application...............................................passed
+And I have a vCard..........................................................passed
+And I insert my "pin code"..................................................passed
+And I tap the  "Login" button...............................................passed
+When I tap the  "PiggyBank"  button.........................................passed
+And I insert an invalid amount of money.....................................passed
+Then I can’t see “Remove” button............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="45.906811">
+<testcase classname="vCard user see piggy bank balance" name="Check piggy bank balance is present" time="16.445683">
+<system-out><![CDATA[Given I start the application...............................................passed
+And I have a vCard..........................................................passed
+And I insert my "pin code"..................................................passed
+When I tap  the "Login" button..............................................passed
+Then I can see my “piggyBank” balance.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="vCard user see piggy bank balance" name="Check piggy bank balance is 0" time="29.461128">
+<system-out><![CDATA[Given I start the application...............................................passed
+And I have a vCard..........................................................passed
+And I insert my "pin code"..................................................passed
+When I tap  the "Login" button..............................................passed
+Then I can see my piggy bank balance is "0.00 €"............................passed
+]]></system-out>
+</testcase>
+</testsuite>

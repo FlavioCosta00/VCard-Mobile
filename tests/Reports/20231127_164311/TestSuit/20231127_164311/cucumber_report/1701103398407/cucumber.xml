@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="68.743519">
+<testcase classname="New vCard user" name="Create vCard Fail" time="12.907385">
+<system-out><![CDATA[Given I start the application...............................................passed
+And I dont have a vCard associated..........................................passed
+And I dont insert my credencials............................................passed
+When I tap the "create vCard" button........................................passed
+Then I can see "empty fields" message.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="New vCard user" name="Create vCard Fail(Phone number already exists)" time="15.256676">
+<system-out><![CDATA[Given I start the application...............................................passed
+And I dont have a vCard associated..........................................passed
+And I insert an phone number that already has card..........................passed
+When I tap the "create vCard" button........................................passed
+Then I can see "Phone number already exists" message error..................passed
+]]></system-out>
+</testcase>
+<testcase classname="New vCard user" name="Create vCard Successfully" time="13.938017">
+<system-out><![CDATA[Given I start the application...............................................passed
+And I dont have a vCard associated..........................................passed
+And I insert my credencials.................................................passed
+When I tap the "create vCard" button........................................passed
+Then I can see  "vCard created" message.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="New vCard user" name="Login Successfuly" time="12.772476">
+<system-out><![CDATA[Given I start the application...............................................passed
+And I have a vCard associated...............................................passed
+And I insert my "pin code"..................................................passed
+When I tap "Login" button...................................................passed
+Then I have access to the dashboard.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="New vCard user" name="Login Fail" time="13.868965">
+<system-out><![CDATA[Given I start the application...............................................passed
+And I have a vCard associated...............................................passed
+And I insert the wrong "pin code"...........................................passed
+When I tap "Login" button...................................................passed
+Then I can see   "Pin code error" message...................................passed
+]]></system-out>
+</testcase>
+</testsuite>

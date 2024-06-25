@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="43.787128">
+<testcase classname="vCard user see balance" name="Check positive balance" time="15.755397">
+<system-out><![CDATA[Given I start the application...............................................passed
+And I have a vCard..........................................................passed
+And I insert my "pin code"..................................................passed
+When I tap  the "Login" button..............................................passed
+Then I can see my positive balance..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="vCard user see balance" name="Check balance is 0" time="28.031731">
+<system-out><![CDATA[Given I start the application...............................................passed
+And I have a vCard..........................................................passed
+And I insert my "pin code"..................................................passed
+When I tap  the "Login" button..............................................passed
+Then I can see my banlace is "0"............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

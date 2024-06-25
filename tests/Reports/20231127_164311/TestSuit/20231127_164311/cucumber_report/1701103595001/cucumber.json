@@ -1,0 +1,255 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Withdraw a valid amount of money on the Piggy bank",
+        "description": "",
+        "id": "withdraw-money-on-piggy-bank-page;withdraw-a-valid-amount-of-money-on-the-piggy-bank",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9158203100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I start the application",
+            "match": {
+              "location": "US1.i_start_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 273800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have a vCard",
+            "match": {
+              "location": "US3.i_have_a_vCard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1400289600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I insert my \"pin code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pin code\"",
+                  "offset": 12
+                }
+              ],
+              "location": "US1.i_insert_my(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 663173800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I tap the  \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 11
+                }
+              ],
+              "location": "US5.i_tap__the_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2230574300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I tap the  \"PiggyBank\"  button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PiggyBank\"",
+                  "offset": 11
+                }
+              ],
+              "location": "US5.i_tap__the__button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2064789400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I insert a valid amount of money",
+            "match": {
+              "location": "US5.i_insert_a_valid_amount_of_money()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3262265000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I tap on \"Remove\"   button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Remove\"",
+                  "offset": 9
+                }
+              ],
+              "location": "US6.i_tap_on_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3474439300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I can see the money removed on the Piggy bank",
+            "match": {
+              "location": "US6.i_can_see_the_money_addded_on_the_Piggy_bank()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Withdraw an invalid amount of money on the Piggy bank",
+        "description": "",
+        "id": "withdraw-money-on-piggy-bank-page;withdraw-an-invalid-amount-of-money-on-the-piggy-bank",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9000617600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I start the application",
+            "match": {
+              "location": "US1.i_start_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 312600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I have a vCard",
+            "match": {
+              "location": "US3.i_have_a_vCard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2097698000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I insert my \"pin code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pin code\"",
+                  "offset": 12
+                }
+              ],
+              "location": "US1.i_insert_my(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 643579100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I tap the  \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 11
+                }
+              ],
+              "location": "US5.i_tap__the_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2398443000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I tap the  \"PiggyBank\"  button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PiggyBank\"",
+                  "offset": 11
+                }
+              ],
+              "location": "US5.i_tap__the__button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2038999300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I insert an invalid amount of money",
+            "match": {
+              "location": "US5.i_insert_an_invalid_amount_of_money()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 320577900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I can’t see “Remove” button",
+            "match": {
+              "location": "US6.i_can_t_see_the_Add_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Withdraw money on Piggy bank page",
+    "description": "As a vCard user\nI want to click on \"PiggyBank\" button\nSo that I can withdraw money on the piggybank",
+    "id": "withdraw-money-on-piggy-bank-page",
+    "keyword": "Feature",
+    "uri": "C:/projetoTaes/tests/Include/features/US6-WithdrawMoneyOnThePiggyBank/US6-WithdrawMoneyOnThePiggyBank.feature",
+    "tags": []
+  }
+]

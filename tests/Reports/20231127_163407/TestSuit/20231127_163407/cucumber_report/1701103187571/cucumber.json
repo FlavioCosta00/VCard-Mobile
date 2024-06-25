@@ -1,0 +1,255 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Delete my vCard Invalid",
+        "description": "",
+        "id": "delete-vcard;delete-my-vcard-invalid",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8933667400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I start the application",
+            "match": {
+              "location": "US1.i_start_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 643000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have a vCard",
+            "match": {
+              "location": "US3.i_have_a_vCard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1494999900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I insert my \"pin code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pin code\"",
+                  "offset": 12
+                }
+              ],
+              "location": "US1.i_insert_my(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 711131500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I tap the  \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 11
+                }
+              ],
+              "location": "US5.i_tap__the_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2284324700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify that my balance is not 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 32
+                }
+              ],
+              "location": "US9.i_verify_that_my_balance_is(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16769477200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I can see a message “Balance \u003e 0.00 Delete Card Disabled”",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0.00",
+                  "offset": 31
+                }
+              ],
+              "location": "US9.i_can_see_my_a_message_Balance_Delete_Card_Disabled(Double)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Delete my vCard valid",
+        "description": "",
+        "id": "delete-vcard;delete-my-vcard-valid",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9102565600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I start the application",
+            "match": {
+              "location": "US1.i_start_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 367800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I have a vCard",
+            "match": {
+              "location": "US3.i_have_a_vCard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1473419600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I insert my \"pin code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pin code\"",
+                  "offset": 12
+                }
+              ],
+              "location": "US1.i_insert_my(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 650046800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I tap the  \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 11
+                }
+              ],
+              "location": "US5.i_tap__the_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2314166500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I verify that my balance is bigger than 0.00",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0.00",
+                  "offset": 40
+                }
+              ],
+              "location": "US9.i_verify_that_my_balance_is_bigger_than(Double)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2122200900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I tap on   \"Delete\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Delete\"",
+                  "offset": 11
+                }
+              ],
+              "location": "US9.i_tap_on_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1247535200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I insert my   \"pin code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pin code\"",
+                  "offset": 14
+                }
+              ],
+              "location": "US9.i_insert_my(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15922000700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I can delete my VCard",
+            "match": {
+              "location": "US9.i_can_delete_my_VCard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Delete vCard",
+    "description": "As a user\nI want to tap on Delete vCard button\nSo I can delete my vCard",
+    "id": "delete-vcard",
+    "keyword": "Feature",
+    "uri": "C:/projetoTaes/tests/Include/features/US9-DeleteVCard/US9-DeleteVCard.feature",
+    "tags": []
+  }
+]

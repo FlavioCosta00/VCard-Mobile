@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Tests" time="336.817" tests="6" failures="0" errors="0">
+   <testsuite name="Tests" tests="6" failures="0" errors="0" time="336.817" skipped="0" timestamp="2023-11-20 21:44:34" hostname="Laptop - DESKTOP-F2OEDJQ" id="Test Suites/Tests">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 14)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\projetoTaes\\tests\\Reports\\20231120_214427\\Tests\\20231120_214427"/>
+         <property name="logFiles" value="C:\\projetoTaes\\tests\\Reports\\20231120_214427\\Tests\\20231120_214427\\appium.log, C:\\projetoTaes\\tests\\Reports\\20231120_214427\\Tests\\20231120_214427\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Laptop - DESKTOP-F2OEDJQ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="sdk_gphone64_x86_64"/>
+         <property name="hostAddress" value="192.168.159.1"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 14)"/>
+         <property name="deviceOSVersion" value="14"/>
+      </properties>
+      <testcase name="Test Cases/US1 - Create VCard/US1-CreateVCard" time="74.775" classname="Test Cases/US1 - Create VCard/US1-CreateVCard" status="PASSED">
+         <system-out><![CDATA[2023-11-20 21:44:34 - [TEST_CASE][PASSED] - Test Cases/US1 - Create VCard/US1-CreateVCard: Test Cases/US1 - Create VCard/US1-CreateVCard
+
+2023-11-20 21:44:35 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/US1-CreateVCard/US1-CreateVCard.feature"): Feature file: 'Include/features/US1-CreateVCard/US1-CreateVCard.feature' was passed
+
+2023-11-20 21:44:35 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/US1-CreateVCard/US1-CreateVCard.feature' and extract report to folder: 'C:\projetoTaes\tests\Reports\20231120_214427\Tests\20231120_214427/cucumber_report/1700516675074'...
+
+2023-11-20 21:44:35 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Create vCard Fail: SCENARIO Create vCard Fail
+
+2023-11-20 21:44:35 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-20 21:44:36 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-20 21:44:37 - [MESSAGE][INFO] - Appium server started on port 54.812
+
+2023-11-20 21:44:47 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-20 21:44:47 - [MESSAGE][PASSED] - I start the application
+
+2023-11-20 21:44:47 - [TEST_STEP][PASSED] - I dont have a vCard associated: I dont have a vCard associated
+
+2023-11-20 21:44:47 - [MESSAGE][PASSED] - I dont have a vCard associated
+
+2023-11-20 21:44:47 - [TEST_STEP][PASSED] - I dont insert my credencials: I dont insert my credencials
+
+2023-11-20 21:44:47 - [MESSAGE][PASSED] - I dont insert my credencials
+
+2023-11-20 21:44:47 - [TEST_STEP][PASSED] - I tap the "create vCard" button: I tap the "create vCard" button
+
+2023-11-20 21:44:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:44:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Create VCard (2)'
+
+2023-11-20 21:44:48 - [MESSAGE][PASSED] - I tap the "create vCard" button
+
+2023-11-20 21:44:48 - [TEST_STEP][PASSED] - I can see "empty fields" message: I can see "empty fields" message
+
+2023-11-20 21:44:50 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-20 21:44:50 - [MESSAGE][PASSED] - I can see "empty fields" message
+
+2023-11-20 21:44:50 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Create vCard Fail(Phone number already exists): SCENARIO Create vCard Fail(Phone number already exists)
+
+2023-11-20 21:44:50 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-20 21:44:50 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-20 21:44:51 - [MESSAGE][INFO] - Appium server started on port 54.986
+
+2023-11-20 21:44:59 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-20 21:44:59 - [MESSAGE][PASSED] - I start the application
+
+2023-11-20 21:44:59 - [TEST_STEP][PASSED] - I dont have a vCard associated: I dont have a vCard associated
+
+2023-11-20 21:44:59 - [MESSAGE][PASSED] - I dont have a vCard associated
+
+2023-11-20 21:44:59 - [TEST_STEP][PASSED] - I insert an phone number that already has card: I insert an phone number that already has card
+
+2023-11-20 21:44:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:45:00 - [MESSAGE][PASSED] - Text '911000000' has been set to element 'Object Repository/android.widget.EditText (9)'
+
+2023-11-20 21:45:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:45:02 - [MESSAGE][PASSED] - Text '123' has been set to element 'Object Repository/android.widget.EditText (10)'
+
+2023-11-20 21:45:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:45:03 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/android.widget.EditText (11)'
+
+2023-11-20 21:45:03 - [MESSAGE][PASSED] - I insert an phone number that already has card
+
+2023-11-20 21:45:03 - [TEST_STEP][PASSED] - I tap the "create vCard" button: I tap the "create vCard" button
+
+2023-11-20 21:45:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:45:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Create VCard (2)'
+
+2023-11-20 21:45:04 - [MESSAGE][PASSED] - I tap the "create vCard" button
+
+2023-11-20 21:45:04 - [TEST_STEP][PASSED] - I can see "Phone number already exists" message error: I can see "Phone number already exists" message error
+
+2023-11-20 21:45:05 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-20 21:45:05 - [MESSAGE][PASSED] - I can see "Phone number already exists" message error
+
+2023-11-20 21:45:05 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Create vCard Successfully: SCENARIO Create vCard Successfully
+
+2023-11-20 21:45:05 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-20 21:45:05 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-20 21:45:06 - [MESSAGE][INFO] - Appium server started on port 55.155
+
+2023-11-20 21:45:14 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-20 21:45:14 - [MESSAGE][PASSED] - I start the application
+
+2023-11-20 21:45:14 - [TEST_STEP][PASSED] - I dont have a vCard associated: I dont have a vCard associated
+
+2023-11-20 21:45:14 - [MESSAGE][PASSED] - I dont have a vCard associated
+
+2023-11-20 21:45:14 - [TEST_STEP][PASSED] - I insert my credencials: I insert my credencials
+
+2023-11-20 21:45:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:45:16 - [MESSAGE][PASSED] - Text '911000001' has been set to element 'Object Repository/android.widget.EditText'
+
+2023-11-20 21:45:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:45:17 - [MESSAGE][PASSED] - Text '123' has been set to element 'Object Repository/android.widget.EditText (1)'
+
+2023-11-20 21:45:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:45:18 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/android.widget.EditText (2)'
+
+2023-11-20 21:45:18 - [MESSAGE][PASSED] - I insert my credencials
+
+2023-11-20 21:45:18 - [TEST_STEP][PASSED] - I tap the "create vCard" button: I tap the "create vCard" button
+
+2023-11-20 21:45:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:45:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Create VCard (2)'
+
+2023-11-20 21:45:19 - [MESSAGE][PASSED] - I tap the "create vCard" button
+
+2023-11-20 21:45:19 - [TEST_STEP][PASSED] - I can see  "vCard created" message: I can see  "vCard created" message
+
+2023-11-20 21:45:22 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-20 21:45:22 - [MESSAGE][PASSED] - I can see  "vCard created" message
+
+2023-11-20 21:45:22 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Login Successfuly: SCENARIO Login Successfuly
+
+2023-11-20 21:45:22 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-20 21:45:22 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-20 21:45:23 - [MESSAGE][INFO] - Appium server started on port 55.322
+
+2023-11-20 21:45:31 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-20 21:45:31 - [MESSAGE][PASSED] - I start the application
+
+2023-11-20 21:45:31 - [TEST_STEP][PASSED] - I have a vCard associated: I have a vCard associated
+
+2023-11-20 21:45:31 - [MESSAGE][PASSED] - I have a vCard associated
+
+2023-11-20 21:45:31 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-11-20 21:45:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:45:33 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/android.widget.EditText (8)'
+
+2023-11-20 21:45:33 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-11-20 21:45:33 - [TEST_STEP][PASSED] - I tap "Login" button: I tap "Login" button
+
+2023-11-20 21:45:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:45:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Login'
+
+2023-11-20 21:45:34 - [MESSAGE][PASSED] - I tap "Login" button
+
+2023-11-20 21:45:34 - [TEST_STEP][PASSED] - I have access to the dashboard: I have access to the dashboard
+
+2023-11-20 21:45:36 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-20 21:45:36 - [MESSAGE][PASSED] - I have access to the dashboard
+
+2023-11-20 21:45:36 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Login Fail: SCENARIO Login Fail
+
+2023-11-20 21:45:36 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-20 21:45:36 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-20 21:45:37 - [MESSAGE][INFO] - Appium server started on port 55.490
+
+2023-11-20 21:45:45 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-20 21:45:45 - [MESSAGE][PASSED] - I start the application
+
+2023-11-20 21:45:45 - [TEST_STEP][PASSED] - I have a vCard associated: I have a vCard associated
+
+2023-11-20 21:45:45 - [MESSAGE][PASSED] - I have a vCard associated
+
+2023-11-20 21:45:45 - [TEST_STEP][PASSED] - I insert the wrong "pin code": I insert the wrong "pin code"
+
+2023-11-20 21:45:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:45:47 - [MESSAGE][PASSED] - Text '11' has been set to element 'Object Repository/android.widget.EditText (8)'
+
+2023-11-20 21:45:47 - [MESSAGE][PASSED] - I insert the wrong "pin code"
+
+2023-11-20 21:45:47 - [TEST_STEP][PASSED] - I tap "Login" button: I tap "Login" button
+
+2023-11-20 21:45:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:45:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Login'
+
+2023-11-20 21:45:47 - [MESSAGE][PASSED] - I tap "Login" button
+
+2023-11-20 21:45:47 - [TEST_STEP][PASSED] - I can see   "Pin code error" message: I can see   "Pin code error" message
+
+2023-11-20 21:45:49 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-20 21:45:49 - [MESSAGE][PASSED] - I can see   "Pin code error" message
+
+2023-11-20 21:45:49 - [MESSAGE][PASSED] - Feature file: 'Include/features/US1-CreateVCard/US1-CreateVCard.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/US3 - Check Balance on the dashboard/US3 - Check Balance on the dashboard" time="46.946" classname="Test Cases/US3 - Check Balance on the dashboard/US3 - Check Balance on the dashboard" status="PASSED">
+         <system-out><![CDATA[2023-11-20 21:45:49 - [TEST_CASE][PASSED] - Test Cases/US3 - Check Balance on the dashboard/US3 - Check Balance on the dashboard: Test Cases/US3 - Check Balance on the dashboard/US3 - Check Balance on the dashboard
+
+2023-11-20 21:45:49 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/US3-CheckBalanceOnTheDashBoard/US3-CheckBalanceOnTheDashBoard.feature"): Feature file: 'Include/features/US3-CheckBalanceOnTheDashBoard/US3-CheckBalanceOnTheDashBoard.feature' was passed
+
+2023-11-20 21:45:49 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/US3-CheckBalanceOnTheDashBoard/US3-CheckBalanceOnTheDashBoard.feature' and extract report to folder: 'C:\projetoTaes\tests\Reports\20231120_214427\Tests\20231120_214427/cucumber_report/1700516749794'...
+
+2023-11-20 21:45:50 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Check positive balance: SCENARIO Check positive balance
+
+2023-11-20 21:45:50 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-20 21:45:50 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-20 21:45:51 - [MESSAGE][INFO] - Appium server started on port 55.658
+
+2023-11-20 21:45:59 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-20 21:45:59 - [MESSAGE][PASSED] - I start the application
+
+2023-11-20 21:45:59 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-11-20 21:45:59 - [MESSAGE][PASSED] - I have a vCard
+
+2023-11-20 21:45:59 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-11-20 21:45:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:46:00 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/android.widget.EditText (8)'
+
+2023-11-20 21:46:00 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-11-20 21:46:00 - [TEST_STEP][PASSED] - I tap  the "Login" button: I tap  the "Login" button
+
+2023-11-20 21:46:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:46:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Login'
+
+2023-11-20 21:46:01 - [MESSAGE][PASSED] - I tap  the "Login" button
+
+2023-11-20 21:46:01 - [TEST_STEP][PASSED] - I can see my positive balance: I can see my positive balance
+
+2023-11-20 21:46:03 - [MESSAGE][PASSED] - Text of element 'Object Repository/android.widget.TextView - 500.00' is: '500.00 €'
+
+2023-11-20 21:46:03 - [MESSAGE][PASSED] - Actual object '500.00 €' and expected object '0.00 €' are not equal
+
+2023-11-20 21:46:06 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-20 21:46:06 - [MESSAGE][PASSED] - I can see my positive balance
+
+2023-11-20 21:46:06 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Check balance is 0: SCENARIO Check balance is 0
+
+2023-11-20 21:46:06 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-20 21:46:06 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-20 21:46:07 - [MESSAGE][INFO] - Appium server started on port 55.828
+
+2023-11-20 21:46:16 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-20 21:46:16 - [MESSAGE][PASSED] - I start the application
+
+2023-11-20 21:46:16 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-11-20 21:46:16 - [MESSAGE][PASSED] - I have a vCard
+
+2023-11-20 21:46:16 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-11-20 21:46:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:46:18 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/android.widget.EditText (8)'
+
+2023-11-20 21:46:18 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-11-20 21:46:18 - [TEST_STEP][PASSED] - I tap  the "Login" button: I tap  the "Login" button
+
+2023-11-20 21:46:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:46:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Login'
+
+2023-11-20 21:46:18 - [MESSAGE][PASSED] - I tap  the "Login" button
+
+2023-11-20 21:46:18 - [TEST_STEP][PASSED] - I can see my banlace is "0": I can see my banlace is "0"
+
+2023-11-20 21:46:34 - [MESSAGE][PASSED] - Text of element 'Object Repository/android.widget.TextView - 0.00' is: '0.00 €'
+
+2023-11-20 21:46:34 - [MESSAGE][PASSED] - Actual object '0.00 €' and expected object '0.00 €' are equal
+
+2023-11-20 21:46:36 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-20 21:46:36 - [MESSAGE][PASSED] - I can see my banlace is "0"
+
+2023-11-20 21:46:36 - [MESSAGE][PASSED] - Feature file: 'Include/features/US3-CheckBalanceOnTheDashBoard/US3-CheckBalanceOnTheDashBoard.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/US4 - Check Piggy Bank Balance on the dashboard/US4 - Check Piggy Bank Balance on the dashboard" time="46.623" classname="Test Cases/US4 - Check Piggy Bank Balance on the dashboard/US4 - Check Piggy Bank Balance on the dashboard" status="PASSED">
+         <system-out><![CDATA[2023-11-20 21:46:36 - [TEST_CASE][PASSED] - Test Cases/US4 - Check Piggy Bank Balance on the dashboard/US4 - Check Piggy Bank Balance on the dashboard: Test Cases/US4 - Check Piggy Bank Balance on the dashboard/US4 - Check Piggy Bank Balance on the dashboard
+
+2023-11-20 21:46:36 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/US4 -CheckPiggyBankBalanceOnTheDashboard/US4-CheckPiggyBankBalanceOnTheDashBoard.feature"): Feature file: 'Include/features/US4 -CheckPiggyBankBalanceOnTheDashboard/US4-CheckPiggyBankBalanceOnTheDashBoard.feature' was passed
+
+2023-11-20 21:46:36 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/US4 -CheckPiggyBankBalanceOnTheDashboard/US4-CheckPiggyBankBalanceOnTheDashBoard.feature' and extract report to folder: 'C:\projetoTaes\tests\Reports\20231120_214427\Tests\20231120_214427/cucumber_report/1700516796806'...
+
+2023-11-20 21:46:37 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Check piggy bank balance is present: SCENARIO Check piggy bank balance is present
+
+2023-11-20 21:46:37 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-20 21:46:37 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-20 21:46:38 - [MESSAGE][INFO] - Appium server started on port 56.000
+
+2023-11-20 21:46:46 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-20 21:46:46 - [MESSAGE][PASSED] - I start the application
+
+2023-11-20 21:46:46 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-11-20 21:46:46 - [MESSAGE][PASSED] - I have a vCard
+
+2023-11-20 21:46:46 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-11-20 21:46:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:46:47 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/android.widget.EditText (8)'
+
+2023-11-20 21:46:47 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-11-20 21:46:47 - [TEST_STEP][PASSED] - I tap  the "Login" button: I tap  the "Login" button
+
+2023-11-20 21:46:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:46:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Login'
+
+2023-11-20 21:46:48 - [MESSAGE][PASSED] - I tap  the "Login" button
+
+2023-11-20 21:46:48 - [TEST_STEP][PASSED] - I can see my “piggyBank” balance: I can see my “piggyBank” balance
+
+2023-11-20 21:46:51 - [MESSAGE][PASSED] - Text of element 'Object Repository/android.widget.TextView - 100.00' is: '100.00 €'
+
+2023-11-20 21:46:51 - [MESSAGE][PASSED] - Actual object '100.00 €' and expected object '0.00 €' are not equal
+
+2023-11-20 21:46:53 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-20 21:46:53 - [MESSAGE][PASSED] - I can see my “piggyBank” balance
+
+2023-11-20 21:46:53 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Check piggy bank balance is 0: SCENARIO Check piggy bank balance is 0
+
+2023-11-20 21:46:53 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-20 21:46:53 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-20 21:46:54 - [MESSAGE][INFO] - Appium server started on port 56.171
+
+2023-11-20 21:47:03 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-20 21:47:03 - [MESSAGE][PASSED] - I start the application
+
+2023-11-20 21:47:03 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-11-20 21:47:03 - [MESSAGE][PASSED] - I have a vCard
+
+2023-11-20 21:47:03 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-11-20 21:47:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:47:04 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/android.widget.EditText (8)'
+
+2023-11-20 21:47:04 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-11-20 21:47:04 - [TEST_STEP][PASSED] - I tap  the "Login" button: I tap  the "Login" button
+
+2023-11-20 21:47:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:47:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Login'
+
+2023-11-20 21:47:05 - [MESSAGE][PASSED] - I tap  the "Login" button
+
+2023-11-20 21:47:05 - [TEST_STEP][PASSED] - I can see my piggy bank balance is "0.00 €": I can see my piggy bank balance is "0.00 €"
+
+2023-11-20 21:47:20 - [MESSAGE][PASSED] - Text of element 'Object Repository/android.widget.TextView - 0.00 (1)' is: '0.00 €'
+
+2023-11-20 21:47:20 - [MESSAGE][PASSED] - Actual object '0.00 €' and expected object '0.00 €' are equal
+
+2023-11-20 21:47:23 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-20 21:47:23 - [MESSAGE][PASSED] - I can see my piggy bank balance is "0.00 €"
+
+2023-11-20 21:47:23 - [MESSAGE][PASSED] - Feature file: 'Include/features/US4 -CheckPiggyBankBalanceOnTheDashboard/US4-CheckPiggyBankBalanceOnTheDashBoard.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/US7- List Of Contacts Page/ListOfContactsPage" time="31.137" classname="Test Cases/US7- List Of Contacts Page/ListOfContactsPage" status="PASSED">
+         <system-out><![CDATA[2023-11-20 21:47:23 - [TEST_CASE][PASSED] - Test Cases/US7- List Of Contacts Page/ListOfContactsPage: Test Cases/US7- List Of Contacts Page/ListOfContactsPage
+
+2023-11-20 21:47:23 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/US7-ListOfContactsPage/ListOfContactsPage.feature"): Feature file: 'Include/features/US7-ListOfContactsPage/ListOfContactsPage.feature' was passed
+
+2023-11-20 21:47:23 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/US7-ListOfContactsPage/ListOfContactsPage.feature' and extract report to folder: 'C:\projetoTaes\tests\Reports\20231120_214427\Tests\20231120_214427/cucumber_report/1700516843368'...
+
+2023-11-20 21:47:23 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO See all the contacts: SCENARIO See all the contacts
+
+2023-11-20 21:47:23 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-20 21:47:23 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-20 21:47:24 - [MESSAGE][INFO] - Appium server started on port 56.347
+
+2023-11-20 21:47:32 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-20 21:47:32 - [MESSAGE][PASSED] - I start the application
+
+2023-11-20 21:47:32 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-11-20 21:47:32 - [MESSAGE][PASSED] - I have a vCard
+
+2023-11-20 21:47:32 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-11-20 21:47:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:47:34 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/android.widget.EditText (8)'
+
+2023-11-20 21:47:34 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-11-20 21:47:34 - [TEST_STEP][PASSED] - I tap the  "Login" button: I tap the  "Login" button
+
+2023-11-20 21:47:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:47:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Login'
+
+2023-11-20 21:47:34 - [MESSAGE][PASSED] - I tap the  "Login" button
+
+2023-11-20 21:47:34 - [TEST_STEP][PASSED] - I tap on "SendMoney"  button: I tap on "SendMoney"  button
+
+2023-11-20 21:47:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:47:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageButton (4)'
+
+2023-11-20 21:47:37 - [MESSAGE][PASSED] - I tap on "SendMoney"  button
+
+2023-11-20 21:47:37 - [TEST_STEP][PASSED] - I can see all the contacts: I can see all the contacts
+
+2023-11-20 21:47:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:47:38 - [MESSAGE][PASSED] - Element 'Object Repository/androidx.recyclerview.widget.RecyclerView' is exist
+
+2023-11-20 21:47:39 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-20 21:47:54 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-20 21:47:54 - [MESSAGE][PASSED] - I can see all the contacts
+
+2023-11-20 21:47:54 - [MESSAGE][PASSED] - Feature file: 'Include/features/US7-ListOfContactsPage/ListOfContactsPage.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/US5 - Deposit Money on the Piggy bank/US5 - Deposit Money on the Piggy bank" time="66.761" classname="Test Cases/US5 - Deposit Money on the Piggy bank/US5 - Deposit Money on the Piggy bank" status="PASSED">
+         <system-out><![CDATA[2023-11-20 21:47:54 - [TEST_CASE][PASSED] - Test Cases/US5 - Deposit Money on the Piggy bank/US5 - Deposit Money on the Piggy bank: Test Cases/US5 - Deposit Money on the Piggy bank/US5 - Deposit Money on the Piggy bank
+
+2023-11-20 21:47:54 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/US5-DepositMoneyOnThePiggyBank/DepositMoneyOnThePiggyBank.feature"): Feature file: 'Include/features/US5-DepositMoneyOnThePiggyBank/DepositMoneyOnThePiggyBank.feature' was passed
+
+2023-11-20 21:47:54 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/US5-DepositMoneyOnThePiggyBank/DepositMoneyOnThePiggyBank.feature' and extract report to folder: 'C:\projetoTaes\tests\Reports\20231120_214427\Tests\20231120_214427/cucumber_report/1700516874418'...
+
+2023-11-20 21:47:54 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Deposit a valid amount of money on the Piggy bank: SCENARIO Deposit a valid amount of money on the Piggy bank
+
+2023-11-20 21:47:54 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-20 21:47:54 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-20 21:47:55 - [MESSAGE][INFO] - Appium server started on port 56.520
+
+2023-11-20 21:48:03 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-20 21:48:03 - [MESSAGE][PASSED] - I start the application
+
+2023-11-20 21:48:03 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-11-20 21:48:03 - [MESSAGE][PASSED] - I have a vCard
+
+2023-11-20 21:48:03 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-11-20 21:48:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:48:05 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/android.widget.EditText (8)'
+
+2023-11-20 21:48:05 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-11-20 21:48:05 - [TEST_STEP][PASSED] - I tap the  "Login" button: I tap the  "Login" button
+
+2023-11-20 21:48:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:48:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Login'
+
+2023-11-20 21:48:05 - [MESSAGE][PASSED] - I tap the  "Login" button
+
+2023-11-20 21:48:05 - [TEST_STEP][PASSED] - I tap the  "PiggyBank"  button: I tap the  "PiggyBank"  button
+
+2023-11-20 21:48:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:48:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageButtonPiggyBank'
+
+2023-11-20 21:48:08 - [MESSAGE][PASSED] - I tap the  "PiggyBank"  button
+
+2023-11-20 21:48:08 - [TEST_STEP][PASSED] - I insert a valid amount of money: I insert a valid amount of money
+
+2023-11-20 21:48:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:48:11 - [MESSAGE][PASSED] - Text '100.00' has been set to element 'Object Repository/android.widget.EditText - Money'
+
+2023-11-20 21:48:11 - [MESSAGE][PASSED] - I insert a valid amount of money
+
+2023-11-20 21:48:11 - [TEST_STEP][PASSED] - I tap on "Add" button: I tap on "Add" button
+
+2023-11-20 21:48:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:48:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Add'
+
+2023-11-20 21:48:11 - [MESSAGE][PASSED] - I tap on "Add" button
+
+2023-11-20 21:48:11 - [TEST_STEP][PASSED] - I can see the money addded on the Piggy bank: I can see the money addded on the Piggy bank
+
+2023-11-20 21:48:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:48:12 - [MESSAGE][PASSED] - Element 'Object Repository/android.widget.TextView - PiggyBank balance 100.00' is exist
+
+2023-11-20 21:48:12 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-20 21:48:14 - [MESSAGE][PASSED] - I can see the money addded on the Piggy bank
+
+2023-11-20 21:48:14 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Deposit an invalid amount of money on the Piggy bank: SCENARIO Deposit an invalid amount of money on the Piggy bank
+
+2023-11-20 21:48:14 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-20 21:48:14 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-20 21:48:16 - [MESSAGE][INFO] - Appium server started on port 56.691
+
+2023-11-20 21:48:23 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-20 21:48:23 - [MESSAGE][PASSED] - I start the application
+
+2023-11-20 21:48:23 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-11-20 21:48:23 - [MESSAGE][PASSED] - I have a vCard
+
+2023-11-20 21:48:23 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-11-20 21:48:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:48:25 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/android.widget.EditText (8)'
+
+2023-11-20 21:48:25 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-11-20 21:48:25 - [TEST_STEP][PASSED] - I tap the  "Login" button: I tap the  "Login" button
+
+2023-11-20 21:48:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:48:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Login'
+
+2023-11-20 21:48:26 - [MESSAGE][PASSED] - I tap the  "Login" button
+
+2023-11-20 21:48:26 - [TEST_STEP][PASSED] - I tap the  "PiggyBank"  button: I tap the  "PiggyBank"  button
+
+2023-11-20 21:48:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:48:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageButtonPiggyBank'
+
+2023-11-20 21:48:28 - [MESSAGE][PASSED] - I tap the  "PiggyBank"  button
+
+2023-11-20 21:48:28 - [TEST_STEP][PASSED] - I insert an invalid amount of money: I insert an invalid amount of money
+
+2023-11-20 21:48:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:48:30 - [MESSAGE][PASSED] - Text '0.00' has been set to element 'Object Repository/android.widget.EditText - Money'
+
+2023-11-20 21:48:30 - [MESSAGE][PASSED] - I insert an invalid amount of money
+
+2023-11-20 21:48:30 - [TEST_STEP][PASSED] - I can’t see the “Add” button: I can’t see the “Add” button
+
+2023-11-20 21:48:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:49:00 - [MESSAGE][PASSED] - Element 'Object Repository/android.widget.Button - Add' not found
+
+2023-11-20 21:49:00 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-20 21:49:00 - [MESSAGE][PASSED] - I can’t see the “Add” button
+
+2023-11-20 21:49:00 - [MESSAGE][PASSED] - Feature file: 'Include/features/US5-DepositMoneyOnThePiggyBank/DepositMoneyOnThePiggyBank.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/US6- Withdraw Money on the Piggy Bank/Withdraw Money on the Piggy Bank" time="70.33" classname="Test Cases/US6- Withdraw Money on the Piggy Bank/Withdraw Money on the Piggy Bank" status="PASSED">
+         <system-out><![CDATA[2023-11-20 21:49:00 - [TEST_CASE][PASSED] - Test Cases/US6- Withdraw Money on the Piggy Bank/Withdraw Money on the Piggy Bank: Test Cases/US6- Withdraw Money on the Piggy Bank/Withdraw Money on the Piggy Bank
+
+2023-11-20 21:49:01 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/US6-WithdrawMoneyOnThePiggyBank/US6-WithdrawMoneyOnThePiggyBank.feature"): Feature file: 'Include/features/US6-WithdrawMoneyOnThePiggyBank/US6-WithdrawMoneyOnThePiggyBank.feature' was passed
+
+2023-11-20 21:49:01 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/US6-WithdrawMoneyOnThePiggyBank/US6-WithdrawMoneyOnThePiggyBank.feature' and extract report to folder: 'C:\projetoTaes\tests\Reports\20231120_214427\Tests\20231120_214427/cucumber_report/1700516941251'...
+
+2023-11-20 21:49:01 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Withdraw a valid amount of money on the Piggy bank: SCENARIO Withdraw a valid amount of money on the Piggy bank
+
+2023-11-20 21:49:01 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-20 21:49:01 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-20 21:49:02 - [MESSAGE][INFO] - Appium server started on port 56.866
+
+2023-11-20 21:49:10 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-20 21:49:10 - [MESSAGE][PASSED] - I start the application
+
+2023-11-20 21:49:10 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-11-20 21:49:10 - [MESSAGE][PASSED] - I have a vCard
+
+2023-11-20 21:49:10 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-11-20 21:49:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:49:12 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/android.widget.EditText (8)'
+
+2023-11-20 21:49:12 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-11-20 21:49:12 - [TEST_STEP][PASSED] - I tap the  "Login" button: I tap the  "Login" button
+
+2023-11-20 21:49:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:49:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Login'
+
+2023-11-20 21:49:12 - [MESSAGE][PASSED] - I tap the  "Login" button
+
+2023-11-20 21:49:12 - [TEST_STEP][PASSED] - I tap the  "PiggyBank"  button: I tap the  "PiggyBank"  button
+
+2023-11-20 21:49:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:49:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageButtonPiggyBank'
+
+2023-11-20 21:49:15 - [MESSAGE][PASSED] - I tap the  "PiggyBank"  button
+
+2023-11-20 21:49:15 - [TEST_STEP][PASSED] - I insert a valid amount of money: I insert a valid amount of money
+
+2023-11-20 21:49:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:49:17 - [MESSAGE][PASSED] - Text '100.00' has been set to element 'Object Repository/android.widget.EditText - Money'
+
+2023-11-20 21:49:17 - [MESSAGE][PASSED] - I insert a valid amount of money
+
+2023-11-20 21:49:17 - [TEST_STEP][PASSED] - I tap on "Remove"   button: I tap on "Remove"   button
+
+2023-11-20 21:49:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:49:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Remove (2)'
+
+2023-11-20 21:49:21 - [MESSAGE][PASSED] - I tap on "Remove"   button
+
+2023-11-20 21:49:21 - [TEST_STEP][PASSED] - I can see the money removed on the Piggy bank: I can see the money removed on the Piggy bank
+
+2023-11-20 21:49:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:49:24 - [MESSAGE][PASSED] - Element 'Object Repository/android.widget.TextView - Available balance 400.0 (1)' is exist
+
+2023-11-20 21:49:24 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-20 21:49:24 - [MESSAGE][PASSED] - I can see the money removed on the Piggy bank
+
+2023-11-20 21:49:24 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Withdraw an invalid amount of money on the Piggy bank: SCENARIO Withdraw an invalid amount of money on the Piggy bank
+
+2023-11-20 21:49:24 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-20 21:49:24 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-20 21:49:25 - [MESSAGE][INFO] - Appium server started on port 57.054
+
+2023-11-20 21:49:33 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-20 21:49:33 - [MESSAGE][PASSED] - I start the application
+
+2023-11-20 21:49:33 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-11-20 21:49:33 - [MESSAGE][PASSED] - I have a vCard
+
+2023-11-20 21:49:33 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-11-20 21:49:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:49:35 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/android.widget.EditText (8)'
+
+2023-11-20 21:49:35 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-11-20 21:49:35 - [TEST_STEP][PASSED] - I tap the  "Login" button: I tap the  "Login" button
+
+2023-11-20 21:49:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:49:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Login'
+
+2023-11-20 21:49:35 - [MESSAGE][PASSED] - I tap the  "Login" button
+
+2023-11-20 21:49:35 - [TEST_STEP][PASSED] - I tap the  "PiggyBank"  button: I tap the  "PiggyBank"  button
+
+2023-11-20 21:49:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:49:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageButtonPiggyBank'
+
+2023-11-20 21:49:38 - [MESSAGE][PASSED] - I tap the  "PiggyBank"  button
+
+2023-11-20 21:49:38 - [TEST_STEP][PASSED] - I insert an invalid amount of money: I insert an invalid amount of money
+
+2023-11-20 21:49:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:49:40 - [MESSAGE][PASSED] - Text '0.00' has been set to element 'Object Repository/android.widget.EditText - Money'
+
+2023-11-20 21:49:40 - [MESSAGE][PASSED] - I insert an invalid amount of money
+
+2023-11-20 21:49:40 - [TEST_STEP][PASSED] - I can’t see “Remove” button: I can’t see “Remove” button
+
+2023-11-20 21:49:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 21:50:10 - [MESSAGE][PASSED] - Element 'Object Repository/android.widget.Button - Remove' not found
+
+2023-11-20 21:50:11 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-20 21:50:11 - [MESSAGE][PASSED] - I can’t see “Remove” button
+
+2023-11-20 21:50:11 - [MESSAGE][PASSED] - Feature file: 'Include/features/US6-WithdrawMoneyOnThePiggyBank/US6-WithdrawMoneyOnThePiggyBank.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-20 21:44:34 - [TEST_SUITE][PASSED] - Tests: Test Cases/US6- Withdraw Money on the Piggy Bank/Withdraw Money on the Piggy Bank]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

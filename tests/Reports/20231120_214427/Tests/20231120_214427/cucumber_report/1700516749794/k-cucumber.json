@@ -1,0 +1,195 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "e652566b-ebb0-4d0b-b94e-16800c00e9e7",
+        "line": 6,
+        "name": "Check positive balance",
+        "description": "",
+        "id": "vcard-user-see-balance;check-positive-balance",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9211534900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I start the application",
+            "match": {
+              "location": "US1AT1.i_start_the_application()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "98a65de3-7f12-4135-93db-d9d0e267df8e"
+          },
+          {
+            "result": {
+              "duration": 7273800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have a vCard",
+            "match": {
+              "location": "US3AT1.i_have_a_vCard()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "851ed5da-cdf4-49c0-844a-e53a48565902"
+          },
+          {
+            "result": {
+              "duration": 1388360500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I insert my \"pin code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pin code\"",
+                  "offset": 12
+                }
+              ],
+              "location": "US1AT4.i_insert_my(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "def99478-ebf8-417a-bd1c-a4ac588800b9"
+          },
+          {
+            "result": {
+              "duration": 656909500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I tap  the \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 11
+                }
+              ],
+              "location": "US3AT1.i_tap_the_button(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "9cc8d8c5-2d0d-42a3-bb9b-8e95ca82098e"
+          },
+          {
+            "result": {
+              "duration": 4730302700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I can see my positive balance",
+            "match": {
+              "location": "US3AT2.i_can_see_my_positive_balance()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "405c93d2-369a-4844-b67d-92df1b24e994"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "58a8ee3f-eeea-4521-97ef-a770a0cfba00",
+        "line": 13,
+        "name": "Check balance is 0",
+        "description": "",
+        "id": "vcard-user-see-balance;check-balance-is-0",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10547821500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I start the application",
+            "match": {
+              "location": "US1AT1.i_start_the_application()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "15f81696-ba22-4fec-afe2-fe8ae1ee672e"
+          },
+          {
+            "result": {
+              "duration": 333800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I have a vCard",
+            "match": {
+              "location": "US3AT1.i_have_a_vCard()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "a4dfa110-529d-4285-a542-a950339e1137"
+          },
+          {
+            "result": {
+              "duration": 1502893200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I insert my \"pin code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pin code\"",
+                  "offset": 12
+                }
+              ],
+              "location": "US1AT4.i_insert_my(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "af908d76-546a-4d58-b55b-03d8ddacf7da"
+          },
+          {
+            "result": {
+              "duration": 711615000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I tap  the \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 11
+                }
+              ],
+              "location": "US3AT1.i_tap_the_button(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "7a55dbb1-2dd7-465c-bae2-3cf232933996"
+          },
+          {
+            "result": {
+              "duration": 17575870800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I can see my banlace is \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0\"",
+                  "offset": 24
+                }
+              ],
+              "location": "US3AT1.i_can_see_my_banlace_is(String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "ee81a72f-a8ac-473c-8f43-6944adced718"
+          }
+        ]
+      }
+    ],
+    "name": "vCard user see balance",
+    "description": "As a vCard user\nI want to see my balance\nSo i know how much money i have",
+    "id": "vcard-user-see-balance",
+    "keyword": "Feature",
+    "uri": "C:/projetoTaes/tests/Include/features/US3-CheckBalanceOnTheDashBoard/US3-CheckBalanceOnTheDashBoard.feature",
+    "tags": []
+  }
+]

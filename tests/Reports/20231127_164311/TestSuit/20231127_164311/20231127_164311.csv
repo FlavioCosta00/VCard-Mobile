@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuit,,,,2023-11-27 16:43:17,2023-11-27 16:49:41,"6m - 23,797s",FAILED
+,,,,,,,
+Test Cases/US1 - Create VCard/US1-CreateVCard,,,,2023-11-27 16:43:17,2023-11-27 16:44:27,"1m - 9,966s",PASSED
+"runFeatureFile(""Include/features/US1-CreateVCard/US1-CreateVCard.feature"")",,,,2023-11-27 16:43:18,2023-11-27 16:44:27,"1m - 9,585s",PASSED
+,,,,,,,
+Test Cases/US3 - Check Balance on the dashboard/US3 - Check Balance on the dashboard,,,,2023-11-27 16:44:27,2023-11-27 16:45:13,"45,604s",PASSED
+"runFeatureFile(""Include/features/US3-CheckBalanceOnTheDashBoard/US3-CheckBalanceOnTheDashBoard.feature"")",,,,2023-11-27 16:44:28,2023-11-27 16:45:13,"45,275s",PASSED
+,,,,,,,
+Test Cases/US4 - Check Piggy Bank Balance on the dashboard/US4 - Check Piggy Bank Balance on the dashboard,,,,2023-11-27 16:45:13,2023-11-27 16:45:58,"45,345s",PASSED
+"runFeatureFile(""Include/features/US4 -CheckPiggyBankBalanceOnTheDashboard/US4-CheckPiggyBankBalanceOnTheDashBoard.feature"")",,,,2023-11-27 16:45:13,2023-11-27 16:45:58,"45,019s",PASSED
+,,,,,,,
+Test Cases/US5 - Deposit Money on the Piggy bank/US5 - Deposit Money on the Piggy bank,,,,2023-11-27 16:45:58,2023-11-27 16:46:34,"35,761s",PASSED
+"runFeatureFile(""Include/features/US5-DepositMoneyOnThePiggyBank/DepositMoneyOnThePiggyBank.feature"")",,,,2023-11-27 16:45:59,2023-11-27 16:46:34,"35,440s",PASSED
+,,,,,,,
+Test Cases/US6- Withdraw Money on the Piggy Bank/Withdraw Money on the Piggy Bank,,,,2023-11-27 16:46:34,2023-11-27 16:47:14,"39,342s",PASSED
+"runFeatureFile(""Include/features/US6-WithdrawMoneyOnThePiggyBank/US6-WithdrawMoneyOnThePiggyBank.feature"")",,,,2023-11-27 16:46:35,2023-11-27 16:47:14,"39,030s",PASSED
+,,,,,,,
+Test Cases/US7- List Of Contacts Page/ListOfContactsPage,,,,2023-11-27 16:47:14,2023-11-27 16:48:10,"56,282s",FAILED
+"runFeatureFile(""Include/features/US7-ListOfContactsPage/ListOfContactsPage.feature"")",,,,2023-11-27 16:47:14,2023-11-27 16:48:10,"55,934s",FAILED
+,,,,,,,
+Test Cases/US8 - Add New Contact To The List/US8-AddNewContactToTheList,,,,2023-11-27 16:48:10,2023-11-27 16:48:49,"39,136s",PASSED
+"runFeatureFile(""Include/features/US8-AddNewContactToTheList/US8-AddNewContactToTheList.feature"")",,,,2023-11-27 16:48:10,2023-11-27 16:48:49,"38,891s",PASSED
+,,,,,,,
+Test Cases/US9 - Delete VCard/US9 - Delete VCard,,,,2023-11-27 16:48:49,2023-11-27 16:49:41,"52,099s",PASSED
+"runFeatureFile(""Include/features/US9-DeleteVCard/US9-DeleteVCard.feature"")",,,,2023-11-27 16:48:49,2023-11-27 16:49:41,"51,729s",PASSED

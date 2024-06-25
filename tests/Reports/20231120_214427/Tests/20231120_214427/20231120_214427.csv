@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Tests,,,,2023-11-20 21:44:34,2023-11-20 21:50:11,"5m - 36,817s",PASSED
+,,,,,,,
+Test Cases/US1 - Create VCard/US1-CreateVCard,,,,2023-11-20 21:44:34,2023-11-20 21:45:49,"1m - 14,775s",PASSED
+"runFeatureFile(""Include/features/US1-CreateVCard/US1-CreateVCard.feature"")",,,,2023-11-20 21:44:35,2023-11-20 21:45:49,"1m - 14,406s",PASSED
+,,,,,,,
+Test Cases/US3 - Check Balance on the dashboard/US3 - Check Balance on the dashboard,,,,2023-11-20 21:45:49,2023-11-20 21:46:36,"46,946s",PASSED
+"runFeatureFile(""Include/features/US3-CheckBalanceOnTheDashBoard/US3-CheckBalanceOnTheDashBoard.feature"")",,,,2023-11-20 21:45:49,2023-11-20 21:46:36,"46,606s",PASSED
+,,,,,,,
+Test Cases/US4 - Check Piggy Bank Balance on the dashboard/US4 - Check Piggy Bank Balance on the dashboard,,,,2023-11-20 21:46:36,2023-11-20 21:47:23,"46,623s",PASSED
+"runFeatureFile(""Include/features/US4 -CheckPiggyBankBalanceOnTheDashboard/US4-CheckPiggyBankBalanceOnTheDashBoard.feature"")",,,,2023-11-20 21:46:36,2023-11-20 21:47:23,"46,223s",PASSED
+,,,,,,,
+Test Cases/US7- List Of Contacts Page/ListOfContactsPage,,,,2023-11-20 21:47:23,2023-11-20 21:47:54,"31,137s",PASSED
+"runFeatureFile(""Include/features/US7-ListOfContactsPage/ListOfContactsPage.feature"")",,,,2023-11-20 21:47:23,2023-11-20 21:47:54,"30,802s",PASSED
+,,,,,,,
+Test Cases/US5 - Deposit Money on the Piggy bank/US5 - Deposit Money on the Piggy bank,,,,2023-11-20 21:47:54,2023-11-20 21:49:00,"1m - 6,761s",PASSED
+"runFeatureFile(""Include/features/US5-DepositMoneyOnThePiggyBank/DepositMoneyOnThePiggyBank.feature"")",,,,2023-11-20 21:47:54,2023-11-20 21:49:00,"1m - 6,517s",PASSED
+,,,,,,,
+Test Cases/US6- Withdraw Money on the Piggy Bank/Withdraw Money on the Piggy Bank,,,,2023-11-20 21:49:00,2023-11-20 21:50:11,"1m - 10,330s",PASSED
+"runFeatureFile(""Include/features/US6-WithdrawMoneyOnThePiggyBank/US6-WithdrawMoneyOnThePiggyBank.feature"")",,,,2023-11-20 21:49:01,2023-11-20 21:50:11,"1m - 10,020s",PASSED

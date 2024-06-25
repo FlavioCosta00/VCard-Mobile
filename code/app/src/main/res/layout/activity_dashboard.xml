@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="32dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="32dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Welcome, here's your vCard"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/background_rounded"
+        app:layout_constraintDimensionRatio="4:2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:srcCompat="@mipmap/vbucks_foreground" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="68dp"
+        android:text="Balance"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPhoneNumber" />
+
+    <TextView
+        android:id="@+id/textViewPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="132dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2" />
+
+    <TextView
+        android:id="@+id/textViewBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="24dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@+id/guideline" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="64dp"
+        android:text="PiggyBank "
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintLeft_toRightOf="@id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPhoneNumber" />
+
+    <TextView
+        android:id="@+id/textViewPiggyBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="210dp"
+        android:layout_marginBottom="24dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintLeft_toRightOf="@id/textViewBalance"
+        app:layout_constraintStart_toStartOf="@+id/guideline" />
+
+    <ImageView
+        android:id="@+id/imageViewRefresh"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="292dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintLeft_toRightOf="@id/textView"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_refresh_foreground" />
+
+
+    <ImageButton
+        android:id="@+id/imageViewPiggyBank"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:srcCompat="@mipmap/ic_piggybank_foreground" />
+
+    <TextView
+        android:id="@+id/textView123"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/imageViewPiggyBank"
+        android:text="Piggy Bank"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewPiggyBank" />
+
+    <ImageButton
+        android:id="@+id/imageViewSendMoney"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:srcCompat="@mipmap/ic_send_money_foreground" />
+
+    <TextView
+        android:id="@+id/textViewSendMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/imageViewPiggyBank"
+        android:text="Send Money"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewPiggyBank" />
+    />
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/black"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <!-- Linear layout to hold the two rectangles -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- First rectangle with its ImageButton -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/menuItemHome"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@color/grey"
+
+                    android:src="@mipmap/ic_home_foreground" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/menuItemTransactions"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/grey"
+                    android:src="@mipmap/ic_transactions_foreground" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/menuItemNotifications"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/grey"
+                    android:src="@mipmap/ic_notifications_foreground" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/menuItemSettings"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/grey"
+                    android:src="@mipmap/ic_settings_foreground" />
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="30dp"
+        android:text="Last Transaction"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView123" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="12dp"
+        android:text="You have no transactions"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <LinearLayout
+        android:id="@+id/lastTransaction"
+        android:layout_width="411dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18">
+
+        <TextView
+            android:id="@+id/textUserDashboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:gravity="center_horizontal"
+            android:text="911000000"
+            android:textSize="16sp"
+            app:layout_constraintWidth_percent="0.33" />
+
+        <TextView
+            android:id="@+id/textDateDashboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:gravity="center_horizontal"
+            android:text="17:27:55 28/06/2023"
+            android:textSize="16sp"
+            app:layout_constraintWidth_percent="0.33" />
+
+        <TextView
+            android:id="@+id/textAmountDashBoard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="1.0 €"
+            android:textSize="16sp"
+            app:layout_constraintWidth_percent="0.33" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

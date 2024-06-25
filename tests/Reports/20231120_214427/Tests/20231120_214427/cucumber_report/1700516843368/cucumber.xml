@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="30.5616">
+<testcase classname="Contacts Page" name="See all the contacts" time="30.5616">
+<system-out><![CDATA[Given I start the application...............................................passed
+And I have a vCard..........................................................passed
+And I insert my "pin code"..................................................passed
+And I tap the  "Login" button...............................................passed
+And I tap on "SendMoney"  button............................................passed
+Then I can see all the contacts.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

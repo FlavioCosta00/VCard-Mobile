@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListOfTransactions">
+
+    <TextView
+        android:id="@+id/textViewMoneyAsc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/textview_style"
+        android:text="Money(ASC)"
+        app:layout_constraintStart_toEndOf="@+id/textViewMoneyDesc"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDateAsc" />
+
+    <TextView
+        android:id="@+id/textViewDateAsc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/textview_style"
+        android:text="Date(ASC)"
+        app:layout_constraintStart_toEndOf="@+id/textViewDateDesc"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textViewMoneyDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/textview_style"
+        android:text="Money(DESC)"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDateDesc" />
+
+
+    <TextView
+        android:id="@+id/textViewDateDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/textview_style"
+        android:text="Date(DESC)"
+        app:layout_constraintStart_toEndOf="@+id/textView20"
+        app:layout_constraintTop_toBottomOf="@+id/calendarFrom2" />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="35dp"
+        android:background="#00000000"
+        android:drawableBottom="@drawable/refresh_button"
+        android:text=""
+        android:textColor="#000000"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/black"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <!-- Linear layout to hold the two rectangles -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- First rectangle with its ImageButton -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/menuItemHome"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@color/grey"
+                    android:src="@mipmap/ic_home_foreground" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/menuItemTransactions"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/grey"
+                    android:src="@mipmap/ic_transactions_foreground" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/menuItemNotifications"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/grey"
+                    android:src="@mipmap/ic_notifications_foreground" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/menuItemSettings"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/grey"
+                    android:src="@mipmap/ic_settings_foreground" />
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="10dp"
+        android:text="Transactions"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerNotification"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@id/container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMoneyAsc" />
+
+    <RadioButton
+        android:id="@+id/radioButtonAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="12dp"
+        android:text="All"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <RadioButton
+        android:id="@+id/radioButtonDebit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="Debit"
+        app:layout_constraintStart_toEndOf="@+id/radioButtonCredit"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <RadioButton
+        android:id="@+id/radioButtonCredit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="Credit"
+        app:layout_constraintStart_toEndOf="@+id/radioButtonAll"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textview_style"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="showDatePickerDialog"
+        android:text="Start Date"
+        app:layout_constraintStart_toEndOf="@+id/calendarFrom"
+        app:layout_constraintTop_toBottomOf="@+id/radioButtonDebit" />
+
+    <Button
+        android:id="@+id/buttonFilterDate"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="36dp"
+        android:background="#00000000"
+        android:drawableBottom="@drawable/filter_button"
+        android:onClick="filterDataByDate"
+        android:textColor="#000000"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonReset" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="100dp"
+        android:background="@drawable/textview_style"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="showDatePickerDialog"
+        android:text="End Date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/calendarFrom2"
+        app:layout_constraintTop_toBottomOf="@+id/radioButtonCredit" />
+
+    <Button
+        android:id="@+id/calendarFrom"
+        android:layout_width="41dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:background="#00000000"
+        android:drawableBottom="@drawable/calendar_background"
+        android:textColor="#000000"
+        app:backgroundTint="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButtonDebit" />
+
+    <Button
+        android:id="@+id/calendarFrom2"
+        android:layout_width="41dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#00000000"
+        android:drawableBottom="@drawable/calendar_background"
+        android:textColor="#000000"
+        app:backgroundTint="@null"
+        app:layout_constraintStart_toEndOf="@+id/textView16"
+        app:layout_constraintTop_toBottomOf="@+id/radioButtonDebit" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Sort by:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calendarFrom" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

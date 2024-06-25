@@ -1,0 +1,272 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "98e586b7-6284-49b3-a37b-739f338eb6e7",
+        "line": 6,
+        "name": "Withdraw a valid amount of money on the Piggy bank",
+        "description": "",
+        "id": "withdraw-money-on-piggy-bank-page;withdraw-a-valid-amount-of-money-on-the-piggy-bank",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9109159900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I start the application",
+            "match": {
+              "location": "US1AT1.i_start_the_application()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "80e81016-5175-420f-8e27-bd10a4f4fb4b"
+          },
+          {
+            "result": {
+              "duration": 448900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have a vCard",
+            "match": {
+              "location": "US3AT1.i_have_a_vCard()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "fb4dd724-7011-4b6b-967c-00cad0568ad1"
+          },
+          {
+            "result": {
+              "duration": 1541869800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I insert my \"pin code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pin code\"",
+                  "offset": 12
+                }
+              ],
+              "location": "US1AT4.i_insert_my(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "1c0f4752-8b51-4f68-90d7-2ab83dcf4497"
+          },
+          {
+            "result": {
+              "duration": 686428100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I tap the  \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 11
+                }
+              ],
+              "location": "us5.i_tap__the_button(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "f2a2565c-3647-40b0-9260-8c07549bd323"
+          },
+          {
+            "result": {
+              "duration": 2420060400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I tap the  \"PiggyBank\"  button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PiggyBank\"",
+                  "offset": 11
+                }
+              ],
+              "location": "us5.i_tap__the__button(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "b320c943-0e93-49d7-a10c-f223c476440b"
+          },
+          {
+            "result": {
+              "duration": 2558742200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I insert a valid amount of money",
+            "match": {
+              "location": "us5.i_insert_a_valid_amount_of_money()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "06efe6ef-0632-41d2-86eb-24764d3f9636"
+          },
+          {
+            "result": {
+              "duration": 3263659700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I tap on \"Remove\"   button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Remove\"",
+                  "offset": 9
+                }
+              ],
+              "location": "us6.i_tap_on_button(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "aa00cd68-ba7d-403f-ad5d-5dd886571b4e"
+          },
+          {
+            "result": {
+              "duration": 3502595300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I can see the money removed on the Piggy bank",
+            "match": {
+              "location": "us6.i_can_see_the_money_addded_on_the_Piggy_bank()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "9c0add4a-80b8-4540-9b8f-faec5c1ddaec"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "82f0bddf-ff9f-47f5-abaf-4cc5b5c33326",
+        "line": 16,
+        "name": "Withdraw an invalid amount of money on the Piggy bank",
+        "description": "",
+        "id": "withdraw-money-on-piggy-bank-page;withdraw-an-invalid-amount-of-money-on-the-piggy-bank",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9089107100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I start the application",
+            "match": {
+              "location": "US1AT1.i_start_the_application()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "b31cc404-d33e-4199-a7e3-ae0c830fbcd8"
+          },
+          {
+            "result": {
+              "duration": 239400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I have a vCard",
+            "match": {
+              "location": "US3AT1.i_have_a_vCard()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "89e27e29-ba4d-4454-81cf-ba59e40be907"
+          },
+          {
+            "result": {
+              "duration": 1516210800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I insert my \"pin code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pin code\"",
+                  "offset": 12
+                }
+              ],
+              "location": "US1AT4.i_insert_my(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "1ef1bbd8-1615-4dc0-8940-dd04bb1fdf79"
+          },
+          {
+            "result": {
+              "duration": 674385300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I tap the  \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 11
+                }
+              ],
+              "location": "us5.i_tap__the_button(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "062306e5-9018-4baf-b1b4-da7bd23c7186"
+          },
+          {
+            "result": {
+              "duration": 2394364500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I tap the  \"PiggyBank\"  button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PiggyBank\"",
+                  "offset": 11
+                }
+              ],
+              "location": "us5.i_tap__the__button(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "f60448cf-fc89-4ab3-b292-c1e5f49ed308"
+          },
+          {
+            "result": {
+              "duration": 2564143100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I insert an invalid amount of money",
+            "match": {
+              "location": "us5.i_insert_an_invalid_amount_of_money()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "79cbbf85-0739-4be3-a310-717d2ac302b0"
+          },
+          {
+            "result": {
+              "duration": 30444158200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I can’t see “Remove” button",
+            "match": {
+              "location": "us6.i_can_t_see_the_Add_button()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "793de7f8-a3ce-4847-8277-050b76548b08"
+          }
+        ]
+      }
+    ],
+    "name": "Withdraw money on Piggy bank page",
+    "description": "As a vCard user\nI want to click on \"PiggyBank\" button\nSo that I can withdraw money on the piggybank",
+    "id": "withdraw-money-on-piggy-bank-page",
+    "keyword": "Feature",
+    "uri": "C:/projetoTaes/tests/Include/features/US6-WithdrawMoneyOnThePiggyBank/US6-WithdrawMoneyOnThePiggyBank.feature",
+    "tags": []
+  }
+]

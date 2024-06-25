@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>US4 - Check Piggy Bank Balance on the dashboard</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>feeaf8a4-9f44-46cf-b8b7-c7ef6acdaee4</testCaseGuid>
+</TestCaseEntity>

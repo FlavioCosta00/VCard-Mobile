@@ -1,0 +1,1640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuit" time="396.26" tests="8" failures="1" errors="0">
+   <testsuite name="TestSuit" tests="8" failures="1" errors="0" time="396.26" skipped="0" timestamp="2023-11-27 16:34:14" hostname="Laptop - DESKTOP-F2OEDJQ" id="Test Suites/TestSuit">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 14)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\projetoTaes\\tests\\Reports\\20231127_163407\\TestSuit\\20231127_163407"/>
+         <property name="logFiles" value="C:\\projetoTaes\\tests\\Reports\\20231127_163407\\TestSuit\\20231127_163407\\appium.log, C:\\projetoTaes\\tests\\Reports\\20231127_163407\\TestSuit\\20231127_163407\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Laptop - DESKTOP-F2OEDJQ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="sdk_gphone64_x86_64"/>
+         <property name="hostAddress" value="192.168.159.1"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 14)"/>
+         <property name="deviceOSVersion" value="14"/>
+      </properties>
+      <testcase name="Test Cases/US1 - Create VCard/US1-CreateVCard" time="71.322" classname="Test Cases/US1 - Create VCard/US1-CreateVCard" status="PASSED">
+         <system-out><![CDATA[2023-11-27 16:34:14 - [TEST_CASE][PASSED] - Test Cases/US1 - Create VCard/US1-CreateVCard: Test Cases/US1 - Create VCard/US1-CreateVCard
+
+2023-11-27 16:34:15 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/US1-CreateVCard/US1-CreateVCard.feature"): Feature file: 'Include/features/US1-CreateVCard/US1-CreateVCard.feature' was passed
+
+2023-11-27 16:34:15 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/US1-CreateVCard/US1-CreateVCard.feature' and extract report to folder: 'C:\projetoTaes\tests\Reports\20231127_163407\TestSuit\20231127_163407/cucumber_report/1701102855288'...
+
+2023-11-27 16:34:16 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Create vCard Fail: SCENARIO Create vCard Fail
+
+2023-11-27 16:34:16 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-27 16:34:16 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-27 16:34:17 - [MESSAGE][INFO] - Appium server started on port 58.570
+
+2023-11-27 16:34:27 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-27 16:34:27 - [MESSAGE][PASSED] - I start the application
+
+2023-11-27 16:34:27 - [TEST_STEP][PASSED] - I dont have a vCard associated: I dont have a vCard associated
+
+2023-11-27 16:34:27 - [MESSAGE][PASSED] - I dont have a vCard associated
+
+2023-11-27 16:34:27 - [TEST_STEP][PASSED] - I dont insert my credencials: I dont insert my credencials
+
+2023-11-27 16:34:27 - [MESSAGE][PASSED] - I dont insert my credencials
+
+2023-11-27 16:34:27 - [TEST_STEP][PASSED] - I tap the "create vCard" button: I tap the "create vCard" button
+
+2023-11-27 16:34:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:34:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Create VCard (2)'
+
+2023-11-27 16:34:28 - [MESSAGE][PASSED] - I tap the "create vCard" button
+
+2023-11-27 16:34:28 - [TEST_STEP][PASSED] - I can see "empty fields" message: I can see "empty fields" message
+
+2023-11-27 16:34:29 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-27 16:34:29 - [MESSAGE][PASSED] - I can see "empty fields" message
+
+2023-11-27 16:34:29 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Create vCard Fail(Phone number already exists): SCENARIO Create vCard Fail(Phone number already exists)
+
+2023-11-27 16:34:29 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-27 16:34:29 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-27 16:34:30 - [MESSAGE][INFO] - Appium server started on port 58.742
+
+2023-11-27 16:34:38 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-27 16:34:38 - [MESSAGE][PASSED] - I start the application
+
+2023-11-27 16:34:38 - [TEST_STEP][PASSED] - I dont have a vCard associated: I dont have a vCard associated
+
+2023-11-27 16:34:38 - [MESSAGE][PASSED] - I dont have a vCard associated
+
+2023-11-27 16:34:38 - [TEST_STEP][PASSED] - I insert an phone number that already has card: I insert an phone number that already has card
+
+2023-11-27 16:34:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:34:39 - [MESSAGE][PASSED] - Text '911000000' has been set to element 'Object Repository/android.widget.EditText (9)'
+
+2023-11-27 16:34:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:34:41 - [MESSAGE][PASSED] - Text '123' has been set to element 'Object Repository/android.widget.EditText (10)'
+
+2023-11-27 16:34:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:34:42 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/android.widget.EditText (11)'
+
+2023-11-27 16:34:42 - [MESSAGE][PASSED] - I insert an phone number that already has card
+
+2023-11-27 16:34:42 - [TEST_STEP][PASSED] - I tap the "create vCard" button: I tap the "create vCard" button
+
+2023-11-27 16:34:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:34:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Create VCard (2)'
+
+2023-11-27 16:34:42 - [MESSAGE][PASSED] - I tap the "create vCard" button
+
+2023-11-27 16:34:42 - [TEST_STEP][PASSED] - I can see "Phone number already exists" message error: I can see "Phone number already exists" message error
+
+2023-11-27 16:34:44 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-27 16:34:44 - [MESSAGE][PASSED] - I can see "Phone number already exists" message error
+
+2023-11-27 16:34:44 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Create vCard Successfully: SCENARIO Create vCard Successfully
+
+2023-11-27 16:34:44 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-27 16:34:44 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-27 16:34:45 - [MESSAGE][INFO] - Appium server started on port 58.909
+
+2023-11-27 16:34:53 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-27 16:34:53 - [MESSAGE][PASSED] - I start the application
+
+2023-11-27 16:34:53 - [TEST_STEP][PASSED] - I dont have a vCard associated: I dont have a vCard associated
+
+2023-11-27 16:34:53 - [MESSAGE][PASSED] - I dont have a vCard associated
+
+2023-11-27 16:34:53 - [TEST_STEP][PASSED] - I insert my credencials: I insert my credencials
+
+2023-11-27 16:34:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:34:54 - [MESSAGE][PASSED] - Text '911000001' has been set to element 'Object Repository/android.widget.EditText'
+
+2023-11-27 16:34:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:34:55 - [MESSAGE][PASSED] - Text '123' has been set to element 'Object Repository/android.widget.EditText (1)'
+
+2023-11-27 16:34:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:34:57 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/android.widget.EditText (2)'
+
+2023-11-27 16:34:57 - [MESSAGE][PASSED] - I insert my credencials
+
+2023-11-27 16:34:57 - [TEST_STEP][PASSED] - I tap the "create vCard" button: I tap the "create vCard" button
+
+2023-11-27 16:34:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:34:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Create VCard (2)'
+
+2023-11-27 16:34:57 - [MESSAGE][PASSED] - I tap the "create vCard" button
+
+2023-11-27 16:34:57 - [TEST_STEP][PASSED] - I can see  "vCard created" message: I can see  "vCard created" message
+
+2023-11-27 16:35:00 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-27 16:35:00 - [MESSAGE][PASSED] - I can see  "vCard created" message
+
+2023-11-27 16:35:00 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Login Successfuly: SCENARIO Login Successfuly
+
+2023-11-27 16:35:00 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-27 16:35:00 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-27 16:35:01 - [MESSAGE][INFO] - Appium server started on port 59.076
+
+2023-11-27 16:35:09 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-27 16:35:09 - [MESSAGE][PASSED] - I start the application
+
+2023-11-27 16:35:09 - [TEST_STEP][PASSED] - I have a vCard associated: I have a vCard associated
+
+2023-11-27 16:35:09 - [MESSAGE][PASSED] - I have a vCard associated
+
+2023-11-27 16:35:09 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-11-27 16:35:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:35:11 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/android.widget.EditText (8)'
+
+2023-11-27 16:35:11 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-11-27 16:35:11 - [TEST_STEP][PASSED] - I tap "Login" button: I tap "Login" button
+
+2023-11-27 16:35:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:35:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Login'
+
+2023-11-27 16:35:11 - [MESSAGE][PASSED] - I tap "Login" button
+
+2023-11-27 16:35:11 - [TEST_STEP][PASSED] - I have access to the dashboard: I have access to the dashboard
+
+2023-11-27 16:35:12 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-27 16:35:12 - [MESSAGE][PASSED] - I have access to the dashboard
+
+2023-11-27 16:35:12 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Login Fail: SCENARIO Login Fail
+
+2023-11-27 16:35:12 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-27 16:35:13 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-27 16:35:14 - [MESSAGE][INFO] - Appium server started on port 59.242
+
+2023-11-27 16:35:22 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-27 16:35:22 - [MESSAGE][PASSED] - I start the application
+
+2023-11-27 16:35:22 - [TEST_STEP][PASSED] - I have a vCard associated: I have a vCard associated
+
+2023-11-27 16:35:22 - [MESSAGE][PASSED] - I have a vCard associated
+
+2023-11-27 16:35:22 - [TEST_STEP][PASSED] - I insert the wrong "pin code": I insert the wrong "pin code"
+
+2023-11-27 16:35:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:35:24 - [MESSAGE][PASSED] - Text '11' has been set to element 'Object Repository/android.widget.EditText (8)'
+
+2023-11-27 16:35:24 - [MESSAGE][PASSED] - I insert the wrong "pin code"
+
+2023-11-27 16:35:24 - [TEST_STEP][PASSED] - I tap "Login" button: I tap "Login" button
+
+2023-11-27 16:35:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:35:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Login'
+
+2023-11-27 16:35:24 - [MESSAGE][PASSED] - I tap "Login" button
+
+2023-11-27 16:35:24 - [TEST_STEP][PASSED] - I can see   "Pin code error" message: I can see   "Pin code error" message
+
+2023-11-27 16:35:26 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-27 16:35:26 - [MESSAGE][PASSED] - I can see   "Pin code error" message
+
+2023-11-27 16:35:26 - [MESSAGE][PASSED] - Feature file: 'Include/features/US1-CreateVCard/US1-CreateVCard.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/US3 - Check Balance on the dashboard/US3 - Check Balance on the dashboard" time="44.367" classname="Test Cases/US3 - Check Balance on the dashboard/US3 - Check Balance on the dashboard" status="PASSED">
+         <system-out><![CDATA[2023-11-27 16:35:26 - [TEST_CASE][PASSED] - Test Cases/US3 - Check Balance on the dashboard/US3 - Check Balance on the dashboard: Test Cases/US3 - Check Balance on the dashboard/US3 - Check Balance on the dashboard
+
+2023-11-27 16:35:26 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/US3-CheckBalanceOnTheDashBoard/US3-CheckBalanceOnTheDashBoard.feature"): Feature file: 'Include/features/US3-CheckBalanceOnTheDashBoard/US3-CheckBalanceOnTheDashBoard.feature' was passed
+
+2023-11-27 16:35:26 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/US3-CheckBalanceOnTheDashBoard/US3-CheckBalanceOnTheDashBoard.feature' and extract report to folder: 'C:\projetoTaes\tests\Reports\20231127_163407\TestSuit\20231127_163407/cucumber_report/1701102926499'...
+
+2023-11-27 16:35:26 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Check positive balance: SCENARIO Check positive balance
+
+2023-11-27 16:35:26 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-27 16:35:26 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-27 16:35:27 - [MESSAGE][INFO] - Appium server started on port 59.411
+
+2023-11-27 16:35:35 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-27 16:35:35 - [MESSAGE][PASSED] - I start the application
+
+2023-11-27 16:35:35 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-11-27 16:35:35 - [MESSAGE][PASSED] - I have a vCard
+
+2023-11-27 16:35:35 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-11-27 16:35:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:35:37 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/android.widget.EditText (8)'
+
+2023-11-27 16:35:37 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-11-27 16:35:37 - [TEST_STEP][PASSED] - I tap  the "Login" button: I tap  the "Login" button
+
+2023-11-27 16:35:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:35:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Login'
+
+2023-11-27 16:35:37 - [MESSAGE][PASSED] - I tap  the "Login" button
+
+2023-11-27 16:35:37 - [TEST_STEP][PASSED] - I can see my positive balance: I can see my positive balance
+
+2023-11-27 16:35:40 - [MESSAGE][PASSED] - Text of element 'Object Repository/android.widget.TextView - 500.00' is: '500.00 €'
+
+2023-11-27 16:35:40 - [MESSAGE][PASSED] - Actual object '500.00 €' and expected object '0.00 €' are not equal
+
+2023-11-27 16:35:42 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-27 16:35:42 - [MESSAGE][PASSED] - I can see my positive balance
+
+2023-11-27 16:35:42 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Check balance is 0: SCENARIO Check balance is 0
+
+2023-11-27 16:35:42 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-27 16:35:42 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-27 16:35:43 - [MESSAGE][INFO] - Appium server started on port 59.582
+
+2023-11-27 16:35:50 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-27 16:35:50 - [MESSAGE][PASSED] - I start the application
+
+2023-11-27 16:35:50 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-11-27 16:35:50 - [MESSAGE][PASSED] - I have a vCard
+
+2023-11-27 16:35:50 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-11-27 16:35:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:35:52 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/android.widget.EditText (8)'
+
+2023-11-27 16:35:52 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-11-27 16:35:52 - [TEST_STEP][PASSED] - I tap  the "Login" button: I tap  the "Login" button
+
+2023-11-27 16:35:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:35:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Login'
+
+2023-11-27 16:35:52 - [MESSAGE][PASSED] - I tap  the "Login" button
+
+2023-11-27 16:35:52 - [TEST_STEP][PASSED] - I can see my banlace is "0": I can see my banlace is "0"
+
+2023-11-27 16:36:08 - [MESSAGE][PASSED] - Text of element 'Object Repository/android.widget.TextView - 0.00' is: '0.00 €'
+
+2023-11-27 16:36:08 - [MESSAGE][PASSED] - Actual object '0.00 €' and expected object '0.00 €' are equal
+
+2023-11-27 16:36:10 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-27 16:36:10 - [MESSAGE][PASSED] - I can see my banlace is "0"
+
+2023-11-27 16:36:10 - [MESSAGE][PASSED] - Feature file: 'Include/features/US3-CheckBalanceOnTheDashBoard/US3-CheckBalanceOnTheDashBoard.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/US4 - Check Piggy Bank Balance on the dashboard/US4 - Check Piggy Bank Balance on the dashboard" time="44.96" classname="Test Cases/US4 - Check Piggy Bank Balance on the dashboard/US4 - Check Piggy Bank Balance on the dashboard" status="PASSED">
+         <system-out><![CDATA[2023-11-27 16:36:10 - [TEST_CASE][PASSED] - Test Cases/US4 - Check Piggy Bank Balance on the dashboard/US4 - Check Piggy Bank Balance on the dashboard: Test Cases/US4 - Check Piggy Bank Balance on the dashboard/US4 - Check Piggy Bank Balance on the dashboard
+
+2023-11-27 16:36:10 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/US4 -CheckPiggyBankBalanceOnTheDashboard/US4-CheckPiggyBankBalanceOnTheDashBoard.feature"): Feature file: 'Include/features/US4 -CheckPiggyBankBalanceOnTheDashboard/US4-CheckPiggyBankBalanceOnTheDashBoard.feature' was passed
+
+2023-11-27 16:36:10 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/US4 -CheckPiggyBankBalanceOnTheDashboard/US4-CheckPiggyBankBalanceOnTheDashBoard.feature' and extract report to folder: 'C:\projetoTaes\tests\Reports\20231127_163407\TestSuit\20231127_163407/cucumber_report/1701102970894'...
+
+2023-11-27 16:36:11 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Check piggy bank balance is present: SCENARIO Check piggy bank balance is present
+
+2023-11-27 16:36:11 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-27 16:36:11 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-27 16:36:12 - [MESSAGE][INFO] - Appium server started on port 59.752
+
+2023-11-27 16:36:20 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-27 16:36:20 - [MESSAGE][PASSED] - I start the application
+
+2023-11-27 16:36:20 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-11-27 16:36:20 - [MESSAGE][PASSED] - I have a vCard
+
+2023-11-27 16:36:20 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-11-27 16:36:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:36:21 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/android.widget.EditText (8)'
+
+2023-11-27 16:36:21 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-11-27 16:36:21 - [TEST_STEP][PASSED] - I tap  the "Login" button: I tap  the "Login" button
+
+2023-11-27 16:36:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:36:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Login'
+
+2023-11-27 16:36:22 - [MESSAGE][PASSED] - I tap  the "Login" button
+
+2023-11-27 16:36:22 - [TEST_STEP][PASSED] - I can see my “piggyBank” balance: I can see my “piggyBank” balance
+
+2023-11-27 16:36:24 - [MESSAGE][PASSED] - Text of element 'Object Repository/android.widget.TextView - 100.00' is: '100.00 €'
+
+2023-11-27 16:36:24 - [MESSAGE][PASSED] - Actual object '100.00 €' and expected object '0.00 €' are not equal
+
+2023-11-27 16:36:26 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-27 16:36:26 - [MESSAGE][PASSED] - I can see my “piggyBank” balance
+
+2023-11-27 16:36:26 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Check piggy bank balance is 0: SCENARIO Check piggy bank balance is 0
+
+2023-11-27 16:36:26 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-27 16:36:26 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-27 16:36:28 - [MESSAGE][INFO] - Appium server started on port 59.923
+
+2023-11-27 16:36:35 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-27 16:36:35 - [MESSAGE][PASSED] - I start the application
+
+2023-11-27 16:36:35 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-11-27 16:36:35 - [MESSAGE][PASSED] - I have a vCard
+
+2023-11-27 16:36:35 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-11-27 16:36:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:36:37 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/android.widget.EditText (8)'
+
+2023-11-27 16:36:37 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-11-27 16:36:37 - [TEST_STEP][PASSED] - I tap  the "Login" button: I tap  the "Login" button
+
+2023-11-27 16:36:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:36:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Login'
+
+2023-11-27 16:36:37 - [MESSAGE][PASSED] - I tap  the "Login" button
+
+2023-11-27 16:36:37 - [TEST_STEP][PASSED] - I can see my piggy bank balance is "0.00 €": I can see my piggy bank balance is "0.00 €"
+
+2023-11-27 16:36:53 - [MESSAGE][PASSED] - Text of element 'Object Repository/android.widget.TextView - 0.00 (1)' is: '0.00 €'
+
+2023-11-27 16:36:53 - [MESSAGE][PASSED] - Actual object '0.00 €' and expected object '0.00 €' are equal
+
+2023-11-27 16:36:55 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-27 16:36:55 - [MESSAGE][PASSED] - I can see my piggy bank balance is "0.00 €"
+
+2023-11-27 16:36:55 - [MESSAGE][PASSED] - Feature file: 'Include/features/US4 -CheckPiggyBankBalanceOnTheDashboard/US4-CheckPiggyBankBalanceOnTheDashBoard.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/US5 - Deposit Money on the Piggy bank/US5 - Deposit Money on the Piggy bank" time="36.667" classname="Test Cases/US5 - Deposit Money on the Piggy bank/US5 - Deposit Money on the Piggy bank" status="PASSED">
+         <system-out><![CDATA[2023-11-27 16:36:55 - [TEST_CASE][PASSED] - Test Cases/US5 - Deposit Money on the Piggy bank/US5 - Deposit Money on the Piggy bank: Test Cases/US5 - Deposit Money on the Piggy bank/US5 - Deposit Money on the Piggy bank
+
+2023-11-27 16:36:55 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/US5-DepositMoneyOnThePiggyBank/DepositMoneyOnThePiggyBank.feature"): Feature file: 'Include/features/US5-DepositMoneyOnThePiggyBank/DepositMoneyOnThePiggyBank.feature' was passed
+
+2023-11-27 16:36:56 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/US5-DepositMoneyOnThePiggyBank/DepositMoneyOnThePiggyBank.feature' and extract report to folder: 'C:\projetoTaes\tests\Reports\20231127_163407\TestSuit\20231127_163407/cucumber_report/1701103015999'...
+
+2023-11-27 16:36:56 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Deposit a valid amount of money on the Piggy bank: SCENARIO Deposit a valid amount of money on the Piggy bank
+
+2023-11-27 16:36:56 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-27 16:36:56 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-27 16:36:57 - [MESSAGE][INFO] - Appium server started on port 60.095
+
+2023-11-27 16:37:05 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-27 16:37:05 - [MESSAGE][PASSED] - I start the application
+
+2023-11-27 16:37:05 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-11-27 16:37:05 - [MESSAGE][PASSED] - I have a vCard
+
+2023-11-27 16:37:05 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-11-27 16:37:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:37:06 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/android.widget.EditText (8)'
+
+2023-11-27 16:37:06 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-11-27 16:37:06 - [TEST_STEP][PASSED] - I tap the  "Login" button: I tap the  "Login" button
+
+2023-11-27 16:37:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:37:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Login'
+
+2023-11-27 16:37:07 - [MESSAGE][PASSED] - I tap the  "Login" button
+
+2023-11-27 16:37:07 - [TEST_STEP][PASSED] - I tap the  "PiggyBank"  button: I tap the  "PiggyBank"  button
+
+2023-11-27 16:37:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:37:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageButtonPiggyBank'
+
+2023-11-27 16:37:09 - [MESSAGE][PASSED] - I tap the  "PiggyBank"  button
+
+2023-11-27 16:37:09 - [TEST_STEP][PASSED] - I insert a valid amount of money: I insert a valid amount of money
+
+2023-11-27 16:37:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:37:12 - [MESSAGE][PASSED] - Text '100.00' has been set to element 'Object Repository/android.widget.EditText - Money'
+
+2023-11-27 16:37:12 - [MESSAGE][PASSED] - I insert a valid amount of money
+
+2023-11-27 16:37:12 - [TEST_STEP][PASSED] - I tap on "Add" button: I tap on "Add" button
+
+2023-11-27 16:37:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:37:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Add (2)'
+
+2023-11-27 16:37:12 - [MESSAGE][PASSED] - I tap on "Add" button
+
+2023-11-27 16:37:12 - [TEST_STEP][PASSED] - I can see the money addded on the Piggy bank: I can see the money addded on the Piggy bank
+
+2023-11-27 16:37:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:37:13 - [MESSAGE][PASSED] - Element 'Object Repository/android.widget.TextView - PiggyBank balance 100.00' is exist
+
+2023-11-27 16:37:13 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-27 16:37:15 - [MESSAGE][PASSED] - I can see the money addded on the Piggy bank
+
+2023-11-27 16:37:15 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Deposit an invalid amount of money on the Piggy bank: SCENARIO Deposit an invalid amount of money on the Piggy bank
+
+2023-11-27 16:37:15 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-27 16:37:15 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-27 16:37:17 - [MESSAGE][INFO] - Appium server started on port 60.267
+
+2023-11-27 16:37:24 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-27 16:37:24 - [MESSAGE][PASSED] - I start the application
+
+2023-11-27 16:37:24 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-11-27 16:37:24 - [MESSAGE][PASSED] - I have a vCard
+
+2023-11-27 16:37:24 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-11-27 16:37:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:37:26 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/android.widget.EditText (8)'
+
+2023-11-27 16:37:26 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-11-27 16:37:26 - [TEST_STEP][PASSED] - I tap the  "Login" button: I tap the  "Login" button
+
+2023-11-27 16:37:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:37:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Login'
+
+2023-11-27 16:37:26 - [MESSAGE][PASSED] - I tap the  "Login" button
+
+2023-11-27 16:37:26 - [TEST_STEP][PASSED] - I tap the  "PiggyBank"  button: I tap the  "PiggyBank"  button
+
+2023-11-27 16:37:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:37:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageButtonPiggyBank'
+
+2023-11-27 16:37:29 - [MESSAGE][PASSED] - I tap the  "PiggyBank"  button
+
+2023-11-27 16:37:29 - [TEST_STEP][PASSED] - I insert an invalid amount of money: I insert an invalid amount of money
+
+2023-11-27 16:37:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:37:31 - [MESSAGE][PASSED] - Text '0.00' has been set to element 'Object Repository/android.widget.EditText - Money'
+
+2023-11-27 16:37:31 - [MESSAGE][PASSED] - I insert an invalid amount of money
+
+2023-11-27 16:37:31 - [TEST_STEP][PASSED] - I can’t see the “Add” button: I can’t see the “Add” button
+
+2023-11-27 16:37:32 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-27 16:37:32 - [MESSAGE][PASSED] - I can’t see the “Add” button
+
+2023-11-27 16:37:32 - [MESSAGE][PASSED] - Feature file: 'Include/features/US5-DepositMoneyOnThePiggyBank/DepositMoneyOnThePiggyBank.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/US6- Withdraw Money on the Piggy Bank/Withdraw Money on the Piggy Bank" time="39.408" classname="Test Cases/US6- Withdraw Money on the Piggy Bank/Withdraw Money on the Piggy Bank" status="PASSED">
+         <system-out><![CDATA[2023-11-27 16:37:32 - [TEST_CASE][PASSED] - Test Cases/US6- Withdraw Money on the Piggy Bank/Withdraw Money on the Piggy Bank: Test Cases/US6- Withdraw Money on the Piggy Bank/Withdraw Money on the Piggy Bank
+
+2023-11-27 16:37:32 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/US6-WithdrawMoneyOnThePiggyBank/US6-WithdrawMoneyOnThePiggyBank.feature"): Feature file: 'Include/features/US6-WithdrawMoneyOnThePiggyBank/US6-WithdrawMoneyOnThePiggyBank.feature' was passed
+
+2023-11-27 16:37:32 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/US6-WithdrawMoneyOnThePiggyBank/US6-WithdrawMoneyOnThePiggyBank.feature' and extract report to folder: 'C:\projetoTaes\tests\Reports\20231127_163407\TestSuit\20231127_163407/cucumber_report/1701103052498'...
+
+2023-11-27 16:37:32 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Withdraw a valid amount of money on the Piggy bank: SCENARIO Withdraw a valid amount of money on the Piggy bank
+
+2023-11-27 16:37:32 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-27 16:37:32 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-27 16:37:33 - [MESSAGE][INFO] - Appium server started on port 60.435
+
+2023-11-27 16:37:41 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-27 16:37:41 - [MESSAGE][PASSED] - I start the application
+
+2023-11-27 16:37:41 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-11-27 16:37:41 - [MESSAGE][PASSED] - I have a vCard
+
+2023-11-27 16:37:41 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-11-27 16:37:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:37:43 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/android.widget.EditText (8)'
+
+2023-11-27 16:37:43 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-11-27 16:37:43 - [TEST_STEP][PASSED] - I tap the  "Login" button: I tap the  "Login" button
+
+2023-11-27 16:37:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:37:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Login'
+
+2023-11-27 16:37:43 - [MESSAGE][PASSED] - I tap the  "Login" button
+
+2023-11-27 16:37:43 - [TEST_STEP][PASSED] - I tap the  "PiggyBank"  button: I tap the  "PiggyBank"  button
+
+2023-11-27 16:37:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:37:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageButtonPiggyBank'
+
+2023-11-27 16:37:46 - [MESSAGE][PASSED] - I tap the  "PiggyBank"  button
+
+2023-11-27 16:37:46 - [TEST_STEP][PASSED] - I insert a valid amount of money: I insert a valid amount of money
+
+2023-11-27 16:37:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:37:49 - [MESSAGE][PASSED] - Text '100.00' has been set to element 'Object Repository/android.widget.EditText - Money'
+
+2023-11-27 16:37:49 - [MESSAGE][PASSED] - I insert a valid amount of money
+
+2023-11-27 16:37:49 - [TEST_STEP][PASSED] - I tap on "Remove"   button: I tap on "Remove"   button
+
+2023-11-27 16:37:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:37:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Remove (2)'
+
+2023-11-27 16:37:52 - [MESSAGE][PASSED] - I tap on "Remove"   button
+
+2023-11-27 16:37:52 - [TEST_STEP][PASSED] - I can see the money removed on the Piggy bank: I can see the money removed on the Piggy bank
+
+2023-11-27 16:37:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:37:55 - [MESSAGE][PASSED] - Element 'Object Repository/android.widget.TextView - Available balance 400.0 (1)' is exist
+
+2023-11-27 16:37:55 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-27 16:37:55 - [MESSAGE][PASSED] - I can see the money removed on the Piggy bank
+
+2023-11-27 16:37:55 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Withdraw an invalid amount of money on the Piggy bank: SCENARIO Withdraw an invalid amount of money on the Piggy bank
+
+2023-11-27 16:37:55 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-27 16:37:55 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-27 16:37:57 - [MESSAGE][INFO] - Appium server started on port 60.607
+
+2023-11-27 16:38:04 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-27 16:38:04 - [MESSAGE][PASSED] - I start the application
+
+2023-11-27 16:38:04 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-11-27 16:38:04 - [MESSAGE][PASSED] - I have a vCard
+
+2023-11-27 16:38:04 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-11-27 16:38:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:38:06 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/android.widget.EditText (8)'
+
+2023-11-27 16:38:06 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-11-27 16:38:06 - [TEST_STEP][PASSED] - I tap the  "Login" button: I tap the  "Login" button
+
+2023-11-27 16:38:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:38:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Login'
+
+2023-11-27 16:38:06 - [MESSAGE][PASSED] - I tap the  "Login" button
+
+2023-11-27 16:38:06 - [TEST_STEP][PASSED] - I tap the  "PiggyBank"  button: I tap the  "PiggyBank"  button
+
+2023-11-27 16:38:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:38:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageButtonPiggyBank'
+
+2023-11-27 16:38:09 - [MESSAGE][PASSED] - I tap the  "PiggyBank"  button
+
+2023-11-27 16:38:09 - [TEST_STEP][PASSED] - I insert an invalid amount of money: I insert an invalid amount of money
+
+2023-11-27 16:38:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:38:11 - [MESSAGE][PASSED] - Text '0.00' has been set to element 'Object Repository/android.widget.EditText - Money'
+
+2023-11-27 16:38:11 - [MESSAGE][PASSED] - I insert an invalid amount of money
+
+2023-11-27 16:38:11 - [TEST_STEP][PASSED] - I can’t see “Remove” button: I can’t see “Remove” button
+
+2023-11-27 16:38:11 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-27 16:38:11 - [MESSAGE][PASSED] - I can’t see “Remove” button
+
+2023-11-27 16:38:11 - [MESSAGE][PASSED] - Feature file: 'Include/features/US6-WithdrawMoneyOnThePiggyBank/US6-WithdrawMoneyOnThePiggyBank.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/US7- List Of Contacts Page/ListOfContactsPage" time="55.318" classname="Test Cases/US7- List Of Contacts Page/ListOfContactsPage" status="PASSED">
+         <system-out><![CDATA[2023-11-27 16:38:11 - [TEST_CASE][PASSED] - Test Cases/US7- List Of Contacts Page/ListOfContactsPage: Test Cases/US7- List Of Contacts Page/ListOfContactsPage
+
+2023-11-27 16:38:11 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/US7-ListOfContactsPage/ListOfContactsPage.feature"): Feature file: 'Include/features/US7-ListOfContactsPage/ListOfContactsPage.feature' was passed
+
+2023-11-27 16:38:11 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/US7-ListOfContactsPage/ListOfContactsPage.feature' and extract report to folder: 'C:\projetoTaes\tests\Reports\20231127_163407\TestSuit\20231127_163407/cucumber_report/1701103091951'...
+
+2023-11-27 16:38:12 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO See all the contacts: SCENARIO See all the contacts
+
+2023-11-27 16:38:12 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-27 16:38:12 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-27 16:38:13 - [MESSAGE][INFO] - Appium server started on port 60.775
+
+2023-11-27 16:38:19 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-27 16:38:19 - [MESSAGE][PASSED] - I start the application
+
+2023-11-27 16:38:19 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-11-27 16:38:19 - [MESSAGE][PASSED] - I have a vCard
+
+2023-11-27 16:38:19 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-11-27 16:38:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:38:21 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/android.widget.EditText (8)'
+
+2023-11-27 16:38:21 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-11-27 16:38:21 - [TEST_STEP][PASSED] - I tap the  "Login" button: I tap the  "Login" button
+
+2023-11-27 16:38:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:38:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Login'
+
+2023-11-27 16:38:22 - [MESSAGE][PASSED] - I tap the  "Login" button
+
+2023-11-27 16:38:22 - [TEST_STEP][PASSED] - I tap on "SendMoney"  button: I tap on "SendMoney"  button
+
+2023-11-27 16:38:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:38:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageButton (2)'
+
+2023-11-27 16:38:24 - [MESSAGE][PASSED] - I tap on "SendMoney"  button
+
+2023-11-27 16:38:24 - [TEST_STEP][PASSED] - I can see all the contacts: I can see all the contacts
+
+2023-11-27 16:38:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:38:26 - [MESSAGE][PASSED] - Element 'Object Repository/androidx.recyclerview.widget.RecyclerView (2)' is exist
+
+2023-11-27 16:38:26 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-27 16:39:06 - [MESSAGE][PASSED] - I can see all the contacts
+
+2023-11-27 16:39:06 - [MESSAGE][PASSED] - Feature file: 'Include/features/US7-ListOfContactsPage/ListOfContactsPage.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/US8 - Add New Contact To The List/US8-AddNewContactToTheList" time="40.146" classname="Test Cases/US8 - Add New Contact To The List/US8-AddNewContactToTheList" status="PASSED">
+         <system-out><![CDATA[2023-11-27 16:39:06 - [TEST_CASE][PASSED] - Test Cases/US8 - Add New Contact To The List/US8-AddNewContactToTheList: Test Cases/US8 - Add New Contact To The List/US8-AddNewContactToTheList
+
+2023-11-27 16:39:07 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/US8-AddNewContactToTheList/US8-AddNewContactToTheList.feature"): Feature file: 'Include/features/US8-AddNewContactToTheList/US8-AddNewContactToTheList.feature' was passed
+
+2023-11-27 16:39:07 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/US8-AddNewContactToTheList/US8-AddNewContactToTheList.feature' and extract report to folder: 'C:\projetoTaes\tests\Reports\20231127_163407\TestSuit\20231127_163407/cucumber_report/1701103147181'...
+
+2023-11-27 16:39:07 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Add new contact to the contacts list success: SCENARIO Add new contact to the contacts list success
+
+2023-11-27 16:39:07 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-27 16:39:07 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-27 16:39:08 - [MESSAGE][INFO] - Appium server started on port 60.953
+
+2023-11-27 16:39:16 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-27 16:39:16 - [MESSAGE][PASSED] - I start the application
+
+2023-11-27 16:39:16 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-11-27 16:39:16 - [MESSAGE][PASSED] - I have a vCard
+
+2023-11-27 16:39:16 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-11-27 16:39:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:39:18 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/android.widget.EditText (8)'
+
+2023-11-27 16:39:18 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-11-27 16:39:18 - [TEST_STEP][PASSED] - I tap the  "Login" button: I tap the  "Login" button
+
+2023-11-27 16:39:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:39:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Login'
+
+2023-11-27 16:39:18 - [MESSAGE][PASSED] - I tap the  "Login" button
+
+2023-11-27 16:39:18 - [TEST_STEP][PASSED] - I tap on "SendMoney"  button: I tap on "SendMoney"  button
+
+2023-11-27 16:39:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:39:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageButton (2)'
+
+2023-11-27 16:39:21 - [MESSAGE][PASSED] - I tap on "SendMoney"  button
+
+2023-11-27 16:39:21 - [TEST_STEP][PASSED] - I  tap on "NewContact" button: I  tap on "NewContact" button
+
+2023-11-27 16:39:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:39:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Add Contact (1)'
+
+2023-11-27 16:39:23 - [MESSAGE][PASSED] - I  tap on "NewContact" button
+
+2023-11-27 16:39:23 - [TEST_STEP][PASSED] - I insert a new contact: I insert a new contact
+
+2023-11-27 16:39:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:39:25 - [MESSAGE][PASSED] - Text 'Cristiano Ronaldo' has been set to element 'Object Repository/android.widget.EditText (18)'
+
+2023-11-27 16:39:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:39:26 - [MESSAGE][PASSED] - Text '920000007' has been set to element 'Object Repository/android.widget.EditText (19)'
+
+2023-11-27 16:39:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:39:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Add (1)'
+
+2023-11-27 16:39:27 - [MESSAGE][PASSED] - I insert a new contact
+
+2023-11-27 16:39:27 - [TEST_STEP][PASSED] - The new contact is added to the list of contacts: The new contact is added to the list of contacts
+
+2023-11-27 16:39:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:39:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/androidx.recyclerview.widget.RecyclerView (2)'
+
+2023-11-27 16:39:29 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-27 16:39:29 - [MESSAGE][PASSED] - The new contact is added to the list of contacts
+
+2023-11-27 16:39:29 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Add new contact to the contacts list empty fields: SCENARIO Add new contact to the contacts list empty fields
+
+2023-11-27 16:39:29 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-27 16:39:29 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-27 16:39:30 - [MESSAGE][INFO] - Appium server started on port 61.124
+
+2023-11-27 16:39:38 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-27 16:39:38 - [MESSAGE][PASSED] - I start the application
+
+2023-11-27 16:39:38 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-11-27 16:39:38 - [MESSAGE][PASSED] - I have a vCard
+
+2023-11-27 16:39:38 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-11-27 16:39:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:39:40 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/android.widget.EditText (8)'
+
+2023-11-27 16:39:40 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-11-27 16:39:40 - [TEST_STEP][PASSED] - I tap the  "Login" button: I tap the  "Login" button
+
+2023-11-27 16:39:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:39:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Login'
+
+2023-11-27 16:39:40 - [MESSAGE][PASSED] - I tap the  "Login" button
+
+2023-11-27 16:39:40 - [TEST_STEP][PASSED] - I tap on "SendMoney"  button: I tap on "SendMoney"  button
+
+2023-11-27 16:39:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:39:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageButton (2)'
+
+2023-11-27 16:39:43 - [MESSAGE][PASSED] - I tap on "SendMoney"  button
+
+2023-11-27 16:39:43 - [TEST_STEP][PASSED] - I  tap on "NewContact" button: I  tap on "NewContact" button
+
+2023-11-27 16:39:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:39:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Add Contact (1)'
+
+2023-11-27 16:39:44 - [MESSAGE][PASSED] - I  tap on "NewContact" button
+
+2023-11-27 16:39:44 - [TEST_STEP][PASSED] - I have empty fields: I have empty fields
+
+2023-11-27 16:39:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:39:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Add (1)'
+
+2023-11-27 16:39:46 - [MESSAGE][PASSED] - I have empty fields
+
+2023-11-27 16:39:46 - [TEST_STEP][PASSED] - i can see "Empty fields" message: i can see "Empty fields" message
+
+2023-11-27 16:39:47 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-27 16:39:47 - [MESSAGE][PASSED] - i can see "Empty fields" message
+
+2023-11-27 16:39:47 - [MESSAGE][PASSED] - Feature file: 'Include/features/US8-AddNewContactToTheList/US8-AddNewContactToTheList.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/US9 - Delete VCard/US9 - Delete VCard" time="63.821" classname="Test Cases/US9 - Delete VCard/US9 - Delete VCard" status="FAILED">
+         <failure type="FAILED" message="Test Cases/US9 - Delete VCard/US9 - Delete VCard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: java.lang.RuntimeException: java.io.IOException: O identificador é inválido
+	at cucumber.api.formatter.NiceAppendable.tryFlush(NiceAppendable.java:82)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:21)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at US9 - Delete VCard.run(US9 - Delete VCard:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701102847913.run(TempTestSuite1701102847913.groovy:36)
+Caused by: java.io.IOException: O identificador é inválido
+	at cucumber.runtime.io.URLOutputStream.write(URLOutputStream.java:60)
+	at cucumber.api.formatter.NiceAppendable.tryFlush(NiceAppendable.java:80)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:21)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Script1701097879240.run(Script1701097879240.groovy:39)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at US9 - Delete VCard.run(US9 - Delete VCard:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701102847913.run(TempTestSuite1701102847913.groovy:36)
+Caused by: java.lang.RuntimeException: java.io.IOException: O identificador é inválido
+	at cucumber.api.formatter.NiceAppendable.tryFlush(NiceAppendable.java:82)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:21)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 20 more
+Caused by: java.io.IOException: O identificador é inválido
+	at cucumber.runtime.io.URLOutputStream.write(URLOutputStream.java:60)
+	at cucumber.api.formatter.NiceAppendable.tryFlush(NiceAppendable.java:80)
+	... 32 more
+"/>
+         <system-out><![CDATA[2023-11-27 16:39:47 - [TEST_CASE][FAILED] - Test Cases/US9 - Delete VCard/US9 - Delete VCard: Test Cases/US9 - Delete VCard/US9 - Delete VCard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: java.lang.RuntimeException: java.io.IOException: O identificador é inválido
+	at cucumber.api.formatter.NiceAppendable.tryFlush(NiceAppendable.java:82)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:21)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at US9 - Delete VCard.run(US9 - Delete VCard:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701102847913.run(TempTestSuite1701102847913.groovy:36)
+Caused by: java.io.IOException: O identificador é inválido
+	at cucumber.runtime.io.URLOutputStream.write(URLOutputStream.java:60)
+	at cucumber.api.formatter.NiceAppendable.tryFlush(NiceAppendable.java:80)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:21)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Script1701097879240.run(Script1701097879240.groovy:39)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at US9 - Delete VCard.run(US9 - Delete VCard:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701102847913.run(TempTestSuite1701102847913.groovy:36)
+Caused by: java.lang.RuntimeException: java.io.IOException: O identificador é inválido
+	at cucumber.api.formatter.NiceAppendable.tryFlush(NiceAppendable.java:82)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:21)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 20 more
+Caused by: java.io.IOException: O identificador é inválido
+	at cucumber.runtime.io.URLOutputStream.write(URLOutputStream.java:60)
+	at cucumber.api.formatter.NiceAppendable.tryFlush(NiceAppendable.java:80)
+	... 32 more
+
+
+2023-11-27 16:39:47 - [TEST_STEP][FAILED] - runFeatureFile("Include/features/US9-DeleteVCard/US9-DeleteVCard.feature"): Keyword runFeatureFile was failed (Root cause: java.lang.RuntimeException: java.io.IOException: O identificador é inválido
+	at cucumber.api.formatter.NiceAppendable.tryFlush(NiceAppendable.java:82)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:21)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at US9 - Delete VCard.run(US9 - Delete VCard:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701102847913.run(TempTestSuite1701102847913.groovy:36)
+Caused by: java.io.IOException: O identificador é inválido
+	at cucumber.runtime.io.URLOutputStream.write(URLOutputStream.java:60)
+	at cucumber.api.formatter.NiceAppendable.tryFlush(NiceAppendable.java:80)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:21)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Script1701097879240.run(Script1701097879240.groovy:39)
+	... 13 more
+)
+
+2023-11-27 16:39:47 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/US9-DeleteVCard/US9-DeleteVCard.feature' and extract report to folder: 'C:\projetoTaes\tests\Reports\20231127_163407\TestSuit\20231127_163407/cucumber_report/1701103187571'...
+
+2023-11-27 16:39:47 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Delete my vCard Invalid: SCENARIO Delete my vCard Invalid
+
+2023-11-27 16:39:47 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-27 16:39:47 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-27 16:39:49 - [MESSAGE][INFO] - Appium server started on port 61.293
+
+2023-11-27 16:39:56 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-27 16:39:56 - [MESSAGE][PASSED] - I start the application
+
+2023-11-27 16:39:56 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-11-27 16:39:56 - [MESSAGE][PASSED] - I have a vCard
+
+2023-11-27 16:39:56 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-11-27 16:39:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:39:58 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/android.widget.EditText (8)'
+
+2023-11-27 16:39:58 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-11-27 16:39:58 - [TEST_STEP][PASSED] - I tap the  "Login" button: I tap the  "Login" button
+
+2023-11-27 16:39:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:39:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Login'
+
+2023-11-27 16:39:58 - [MESSAGE][PASSED] - I tap the  "Login" button
+
+2023-11-27 16:39:58 - [TEST_STEP][PASSED] - I verify that my balance is not 0: I verify that my balance is not 0
+
+2023-11-27 16:39:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:40:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageButton (3)'
+
+2023-11-27 16:40:01 - [MESSAGE][PASSED] - I verify that my balance is not 0
+
+2023-11-27 16:40:01 - [TEST_STEP][PASSED] - I can see a message “Balance > 0.00 Delete Card Disabled”: I can see a message “Balance > 0.00 Delete Card Disabled”
+
+2023-11-27 16:40:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:40:02 - [MESSAGE][PASSED] - Element 'Object Repository/android.widget.TextView - Balance  0.00 Delete Card Disabled' is exist
+
+2023-11-27 16:40:18 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-27 16:40:18 - [MESSAGE][PASSED] - I can see a message “Balance > 0.00 Delete Card Disabled”
+
+2023-11-27 16:40:18 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Delete my vCard valid: SCENARIO Delete my vCard valid
+
+2023-11-27 16:40:18 - [TEST_STEP][PASSED] - I start the application: I start the application
+
+2023-11-27 16:40:18 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-11-27 16:40:19 - [MESSAGE][INFO] - Appium server started on port 61.466
+
+2023-11-27 16:40:27 - [MESSAGE][PASSED] - Started app at: 'C:\projetoTaes\code\app\build\outputs\apk\debug\app-debug.apk'
+
+2023-11-27 16:40:27 - [MESSAGE][PASSED] - I start the application
+
+2023-11-27 16:40:27 - [TEST_STEP][PASSED] - I have a vCard: I have a vCard
+
+2023-11-27 16:40:27 - [MESSAGE][PASSED] - I have a vCard
+
+2023-11-27 16:40:27 - [TEST_STEP][PASSED] - I insert my "pin code": I insert my "pin code"
+
+2023-11-27 16:40:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:40:28 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/android.widget.EditText (8)'
+
+2023-11-27 16:40:28 - [MESSAGE][PASSED] - I insert my "pin code"
+
+2023-11-27 16:40:28 - [TEST_STEP][PASSED] - I tap the  "Login" button: I tap the  "Login" button
+
+2023-11-27 16:40:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:40:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Login'
+
+2023-11-27 16:40:29 - [MESSAGE][PASSED] - I tap the  "Login" button
+
+2023-11-27 16:40:29 - [TEST_STEP][PASSED] - I verify that my balance is bigger than 0.00: I verify that my balance is bigger than 0.00
+
+2023-11-27 16:40:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:40:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageButton (3)'
+
+2023-11-27 16:40:31 - [MESSAGE][PASSED] - I verify that my balance is bigger than 0.00
+
+2023-11-27 16:40:31 - [TEST_STEP][PASSED] - I tap on   "Delete" button: I tap on   "Delete" button
+
+2023-11-27 16:40:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:40:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Delete Card'
+
+2023-11-27 16:40:33 - [MESSAGE][PASSED] - I tap on   "Delete" button
+
+2023-11-27 16:40:33 - [TEST_STEP][PASSED] - I insert my   "pin code": I insert my   "pin code"
+
+2023-11-27 16:40:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:40:34 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/android.widget.EditText - PIN'
+
+2023-11-27 16:40:34 - [MESSAGE][PASSED] - I insert my   "pin code"
+
+2023-11-27 16:40:34 - [TEST_STEP][PASSED] - I can delete my VCard: I can delete my VCard
+
+2023-11-27 16:40:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 16:40:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Confirm'
+
+2023-11-27 16:40:50 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-27 16:40:50 - [MESSAGE][PASSED] - I can delete my VCard
+
+2023-11-27 16:40:50 - [MESSAGE][FAILED] - Keyword runFeatureFile was failed (Root cause: java.lang.RuntimeException: java.io.IOException: O identificador é inválido
+	at cucumber.api.formatter.NiceAppendable.tryFlush(NiceAppendable.java:82)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:21)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at US9 - Delete VCard.run(US9 - Delete VCard:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701102847913.run(TempTestSuite1701102847913.groovy:36)
+Caused by: java.io.IOException: O identificador é inválido
+	at cucumber.runtime.io.URLOutputStream.write(URLOutputStream.java:60)
+	at cucumber.api.formatter.NiceAppendable.tryFlush(NiceAppendable.java:80)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:21)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Script1701097879240.run(Script1701097879240.groovy:39)
+	... 13 more
+)]]></system-out>
+         <system-err><![CDATA[2023-11-27 16:39:47 - [TEST_CASE][FAILED] - Test Cases/US9 - Delete VCard/US9 - Delete VCard: Test Cases/US9 - Delete VCard/US9 - Delete VCard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: java.lang.RuntimeException: java.io.IOException: O identificador é inválido
+	at cucumber.api.formatter.NiceAppendable.tryFlush(NiceAppendable.java:82)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:21)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at US9 - Delete VCard.run(US9 - Delete VCard:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701102847913.run(TempTestSuite1701102847913.groovy:36)
+Caused by: java.io.IOException: O identificador é inválido
+	at cucumber.runtime.io.URLOutputStream.write(URLOutputStream.java:60)
+	at cucumber.api.formatter.NiceAppendable.tryFlush(NiceAppendable.java:80)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:21)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Script1701097879240.run(Script1701097879240.groovy:39)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at US9 - Delete VCard.run(US9 - Delete VCard:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701102847913.run(TempTestSuite1701102847913.groovy:36)
+Caused by: java.lang.RuntimeException: java.io.IOException: O identificador é inválido
+	at cucumber.api.formatter.NiceAppendable.tryFlush(NiceAppendable.java:82)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:21)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 20 more
+Caused by: java.io.IOException: O identificador é inválido
+	at cucumber.runtime.io.URLOutputStream.write(URLOutputStream.java:60)
+	at cucumber.api.formatter.NiceAppendable.tryFlush(NiceAppendable.java:80)
+	... 32 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-27 16:34:14 - [TEST_SUITE][FAILED] - TestSuit: Test Cases/US9 - Delete VCard/US9 - Delete VCard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: java.lang.RuntimeException: java.io.IOException: O identificador é inválido
+	at cucumber.api.formatter.NiceAppendable.tryFlush(NiceAppendable.java:82)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:21)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at US9 - Delete VCard.run(US9 - Delete VCard:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701102847913.run(TempTestSuite1701102847913.groovy:36)
+Caused by: java.io.IOException: O identificador é inválido
+	at cucumber.runtime.io.URLOutputStream.write(URLOutputStream.java:60)
+	at cucumber.api.formatter.NiceAppendable.tryFlush(NiceAppendable.java:80)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:21)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Script1701097879240.run(Script1701097879240.groovy:39)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at US9 - Delete VCard.run(US9 - Delete VCard:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701102847913.run(TempTestSuite1701102847913.groovy:36)
+Caused by: java.lang.RuntimeException: java.io.IOException: O identificador é inválido
+	at cucumber.api.formatter.NiceAppendable.tryFlush(NiceAppendable.java:82)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:21)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 20 more
+Caused by: java.io.IOException: O identificador é inválido
+	at cucumber.runtime.io.URLOutputStream.write(URLOutputStream.java:60)
+	at cucumber.api.formatter.NiceAppendable.tryFlush(NiceAppendable.java:80)
+	... 32 more]]></system-out>
+      <system-err><![CDATA[2023-11-27 16:34:14 - [TEST_SUITE][FAILED] - TestSuit: Test Cases/US9 - Delete VCard/US9 - Delete VCard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: java.lang.RuntimeException: java.io.IOException: O identificador é inválido
+	at cucumber.api.formatter.NiceAppendable.tryFlush(NiceAppendable.java:82)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:21)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at US9 - Delete VCard.run(US9 - Delete VCard:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701102847913.run(TempTestSuite1701102847913.groovy:36)
+Caused by: java.io.IOException: O identificador é inválido
+	at cucumber.runtime.io.URLOutputStream.write(URLOutputStream.java:60)
+	at cucumber.api.formatter.NiceAppendable.tryFlush(NiceAppendable.java:80)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:21)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Script1701097879240.run(Script1701097879240.groovy:39)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at US9 - Delete VCard.run(US9 - Delete VCard:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1701102847913.run(TempTestSuite1701102847913.groovy:36)
+Caused by: java.lang.RuntimeException: java.io.IOException: O identificador é inválido
+	at cucumber.api.formatter.NiceAppendable.tryFlush(NiceAppendable.java:82)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:21)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 20 more
+Caused by: java.io.IOException: O identificador é inválido
+	at cucumber.runtime.io.URLOutputStream.write(URLOutputStream.java:60)
+	at cucumber.api.formatter.NiceAppendable.tryFlush(NiceAppendable.java:80)
+	... 32 more]]></system-err>
+   </testsuite>
+</testsuites>

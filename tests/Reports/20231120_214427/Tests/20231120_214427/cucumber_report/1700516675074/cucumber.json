@@ -1,0 +1,429 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Create vCard Fail",
+        "description": "",
+        "id": "new-vcard-user;create-vcard-fail",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12119004300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I start the application",
+            "match": {
+              "location": "US1AT1.i_start_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1277900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I dont have a vCard associated",
+            "match": {
+              "location": "US1AT1.i_dont_have_a_vCard_associated()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8556100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I dont insert my credencials",
+            "match": {
+              "location": "US1AT2.i_dont_insert_my_credencials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1028834000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I tap the \"create vCard\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"create vCard\"",
+                  "offset": 10
+                }
+              ],
+              "location": "US1AT1.i_tap_the_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1066044900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I can see \"empty fields\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"empty fields\"",
+                  "offset": 10
+                }
+              ],
+              "location": "US1AT2.i_can_see_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Create vCard Fail(Phone number already exists)",
+        "description": "",
+        "id": "new-vcard-user;create-vcard-fail(phone-number-already-exists)",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9367626100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I start the application",
+            "match": {
+              "location": "US1AT1.i_start_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 710500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I dont have a vCard associated",
+            "match": {
+              "location": "US1AT1.i_dont_have_a_vCard_associated()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3968177900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I insert an phone number that already has card",
+            "match": {
+              "location": "US1AT3.i_insert_an_phone_number_that_already_has_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 683315900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I tap the \"create vCard\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"create vCard\"",
+                  "offset": 10
+                }
+              ],
+              "location": "US1AT1.i_tap_the_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1639744000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I can see \"Phone number already exists\" message error",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Phone number already exists\"",
+                  "offset": 10
+                }
+              ],
+              "location": "US1AT3.i_can_see_message_error(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Create vCard Successfully",
+        "description": "",
+        "id": "new-vcard-user;create-vcard-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9219689600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I start the application",
+            "match": {
+              "location": "US1AT1.i_start_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 379300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I dont have a vCard associated",
+            "match": {
+              "location": "US1AT1.i_dont_have_a_vCard_associated()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3835952500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I insert my credencials",
+            "match": {
+              "location": "US1AT1.i_insert_my_credencials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 683538700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I tap the \"create vCard\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"create vCard\"",
+                  "offset": 10
+                }
+              ],
+              "location": "US1AT1.i_tap_the_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2615898600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I can see  \"vCard created\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vCard created\"",
+                  "offset": 11
+                }
+              ],
+              "location": "US1AT1.i_can_see_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Login Successfuly",
+        "description": "",
+        "id": "new-vcard-user;login-successfuly",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9835211600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I start the application",
+            "match": {
+              "location": "US1AT1.i_start_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9575900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I have a vCard associated",
+            "match": {
+              "location": "US1AT4.i_have_a_vCard_associated()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1403852500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I insert my \"pin code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pin code\"",
+                  "offset": 12
+                }
+              ],
+              "location": "US1AT4.i_insert_my(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 661278100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I tap \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 6
+                }
+              ],
+              "location": "US1AT4.i_tap_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2501505800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I have access to the dashboard",
+            "match": {
+              "location": "US1AT4.i_have_access_to_the_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "Login Fail",
+        "description": "",
+        "id": "new-vcard-user;login-fail",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9177366300,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I start the application",
+            "match": {
+              "location": "US1AT1.i_start_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 977300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I have a vCard associated",
+            "match": {
+              "location": "US1AT4.i_have_a_vCard_associated()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1481727800,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I insert the wrong \"pin code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pin code\"",
+                  "offset": 19
+                }
+              ],
+              "location": "US1AT5.i_insert_the_wrong(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 660948400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I tap \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 6
+                }
+              ],
+              "location": "US1AT4.i_tap_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1517020500,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I can see   \"Pin code error\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pin code error\"",
+                  "offset": 12
+                }
+              ],
+              "location": "US1AT5.i_can_see_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "New vCard user",
+    "description": "As an new vCard user\nI want to create an vCard\nSo that I can have access to all the features",
+    "id": "new-vcard-user",
+    "keyword": "Feature",
+    "uri": "C:/projetoTaes/tests/Include/features/US1-CreateVCard/US1-CreateVCard.feature",
+    "tags": []
+  }
+]

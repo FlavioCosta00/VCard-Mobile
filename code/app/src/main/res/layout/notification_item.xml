@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <!-- Left side (TextViews) -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <!-- Upper TextView -->
+        <TextView
+            android:id="@+id/textViewUpper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="date"
+            android:textSize="18sp" />
+
+        <!-- Lower TextView -->
+        <TextView
+            android:id="@+id/textViewLower"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="message"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- Right side (Button) -->
+    <TextView
+        android:id="@+id/textViewView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="View"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

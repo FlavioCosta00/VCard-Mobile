@@ -1,0 +1,113 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "See all the contacts",
+        "description": "",
+        "id": "contacts-page;see-all-the-contacts",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9245765400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I start the application",
+            "match": {
+              "location": "US1.i_start_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 893700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have a vCard",
+            "match": {
+              "location": "US3.i_have_a_vCard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1488283100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I insert my \"pin code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pin code\"",
+                  "offset": 12
+                }
+              ],
+              "location": "US1.i_insert_my(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 649939000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I tap the  \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 11
+                }
+              ],
+              "location": "US5.i_tap__the_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2285223900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I tap on \"SendMoney\"  button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SendMoney\"",
+                  "offset": 9
+                }
+              ],
+              "location": "US7.i_tap_on_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41951363000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I can see all the contacts",
+            "match": {
+              "location": "US7.i_can_see_all_the_contacts()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Contacts Page",
+    "description": "As a user\nI want to tap on \"Send Money\" button\nSo I can see all the contacts",
+    "id": "contacts-page",
+    "keyword": "Feature",
+    "uri": "C:/projetoTaes/tests/Include/features/US7-ListOfContactsPage/ListOfContactsPage.feature",
+    "tags": []
+  }
+]
